@@ -1,0 +1,1223 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {},
+  "beans": [
+    {
+      "id": "000101",
+      "name": "接续",
+      "children": [
+        {
+          "id": "000101002",
+          "groupId": "2016030722902",
+          "groupDesc": "sss00000",
+          "name": "GBK23",
+          "children": []
+        },
+        {
+          "id": "000101003",
+          "groupId": "2016031813403",
+          "groupDesc": "FF",
+          "name": "称重工作组",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "000104",
+      "name": "工作流",
+      "children": [
+        {
+          "id": "000104002",
+          "groupId": "20080227104357",
+          "groupDesc": "投诉专席工作组2",
+          "name": "投诉专席工作组2",
+          "children": []
+        },
+        {
+          "id": "000104003",
+          "groupId": "20151116140638",
+          "groupDesc": null,
+          "name": "在线客服",
+          "children": [
+            {
+              "id": "000104003001",
+              "groupId": "20151116140743",
+              "groupDesc": null,
+              "name": "提单组",
+              "children": []
+            },
+            {
+              "id": "000104003002",
+              "groupId": "20151116140818",
+              "groupDesc": null,
+              "name": "审核组",
+              "children": []
+            },
+            {
+              "id": "000104003003",
+              "groupId": "20151116140902",
+              "groupDesc": null,
+              "name": "外派一级工单处理组",
+              "children": []
+            },
+            {
+              "id": "000104003004",
+              "groupId": "20151118195226",
+              "groupDesc": null,
+              "name": "反馈组",
+              "children": []
+            },
+            {
+              "id": "000104003005",
+              "groupId": "20151203191816",
+              "groupDesc": null,
+              "name": "舆情工单审核组",
+              "children": [
+                {
+                  "id": "000104003005001",
+                  "groupId": "20151203191847",
+                  "groupDesc": null,
+                  "name": "河南",
+                  "children": []
+                },
+                {
+                  "id": "000104003005002",
+                  "groupId": "20151203191923",
+                  "groupDesc": null,
+                  "name": "河北",
+                  "children": []
+                },
+                {
+                  "id": "000104003005003",
+                  "groupId": "20151204144951",
+                  "groupDesc": null,
+                  "name": "山西",
+                  "children": []
+                },
+                {
+                  "id": "000104003005004",
+                  "groupId": "20151204145750",
+                  "groupDesc": null,
+                  "name": "辽宁",
+                  "children": []
+                },
+                {
+                  "id": "000104003005005",
+                  "groupId": "20151204145928",
+                  "groupDesc": null,
+                  "name": "吉林",
+                  "children": []
+                },
+                {
+                  "id": "000104003005006",
+                  "groupId": "20151204145955",
+                  "groupDesc": null,
+                  "name": "黑龙江",
+                  "children": []
+                },
+                {
+                  "id": "000104003005007",
+                  "groupId": "20151204150017",
+                  "groupDesc": null,
+                  "name": "江苏",
+                  "children": []
+                },
+                {
+                  "id": "000104003005008",
+                  "groupId": "20151204150044",
+                  "groupDesc": "",
+                  "name": "浙江",
+                  "children": []
+                },
+                {
+                  "id": "000104003005009",
+                  "groupId": "20151204150114",
+                  "groupDesc": null,
+                  "name": "安徽",
+                  "children": []
+                },
+                {
+                  "id": "000104003005010",
+                  "groupId": "20151204150141",
+                  "groupDesc": null,
+                  "name": "福建",
+                  "children": []
+                },
+                {
+                  "id": "000104003005011",
+                  "groupId": "20151204150209",
+                  "groupDesc": null,
+                  "name": "江西",
+                  "children": []
+                },
+                {
+                  "id": "000104003005012",
+                  "groupId": "20151204150231",
+                  "groupDesc": null,
+                  "name": "山东",
+                  "children": []
+                },
+                {
+                  "id": "000104003005013",
+                  "groupId": "20151204150301",
+                  "groupDesc": null,
+                  "name": "湖北",
+                  "children": []
+                },
+                {
+                  "id": "000104003005014",
+                  "groupId": "20151204151319",
+                  "groupDesc": null,
+                  "name": "湖南",
+                  "children": []
+                },
+                {
+                  "id": "000104003005015",
+                  "groupId": "20151204151342",
+                  "groupDesc": null,
+                  "name": "广东",
+                  "children": []
+                },
+                {
+                  "id": "000104003005016",
+                  "groupId": "20151204151403",
+                  "groupDesc": null,
+                  "name": "海南",
+                  "children": []
+                },
+                {
+                  "id": "000104003005017",
+                  "groupId": "20151204151426",
+                  "groupDesc": null,
+                  "name": "四川",
+                  "children": []
+                },
+                {
+                  "id": "000104003005018",
+                  "groupId": "20151204151449",
+                  "groupDesc": null,
+                  "name": "贵州",
+                  "children": []
+                },
+                {
+                  "id": "000104003005019",
+                  "groupId": "20151204151518",
+                  "groupDesc": null,
+                  "name": "云南",
+                  "children": []
+                },
+                {
+                  "id": "000104003005020",
+                  "groupId": "20151204151539",
+                  "groupDesc": null,
+                  "name": "陕西",
+                  "children": []
+                },
+                {
+                  "id": "000104003005021",
+                  "groupId": "20151204151616",
+                  "groupDesc": null,
+                  "name": "甘肃",
+                  "children": []
+                },
+                {
+                  "id": "000104003005022",
+                  "groupId": "20151204151816",
+                  "groupDesc": null,
+                  "name": "青海",
+                  "children": []
+                },
+                {
+                  "id": "000104003005023",
+                  "groupId": "20151207102753",
+                  "groupDesc": null,
+                  "name": "洛阳",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "000104003006",
+              "groupId": "2016030912702",
+              "groupDesc": "客服",
+              "name": "客服代表1",
+              "children": []
+            },
+            {
+              "id": "000104003007",
+              "groupId": "2016030914302",
+              "groupDesc": "",
+              "name": "客服A",
+              "children": []
+            },
+            {
+              "id": "000104003008",
+              "groupId": "2016031104602",
+              "groupDesc": "客服代表",
+              "name": "客服代表001",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "000104008",
+          "groupId": "2016031811602",
+          "groupDesc": "夜间复核组",
+          "name": "工单复核组",
+          "children": [
+            {
+              "id": "000104008001",
+              "groupId": "2016041115702",
+              "groupDesc": "test",
+              "name": "test",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "000104009",
+          "groupId": "2016031811603",
+          "groupDesc": "夜间工单归档组",
+          "name": "工单归档组",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "000107",
+      "name": "知识库",
+      "children": [
+        {
+          "id": "000107001",
+          "groupId": "001",
+          "groupDesc": "测试数据修改",
+          "name": "测试数据修改",
+          "children": [
+            {
+              "id": "000107001001",
+              "groupId": "2016030100002",
+              "groupDesc": "测试添加工作组",
+              "name": "测试添加工作组",
+              "children": []
+            },
+            {
+              "id": "000107001002",
+              "groupId": "2016031718602",
+              "groupDesc": "sssss",
+              "name": "测试",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "000107500",
+          "groupId": "002",
+          "groupDesc": "维护知识",
+          "name": "默认维护群组",
+          "children": []
+        },
+        {
+          "id": "000107002",
+          "groupId": "20071117135558",
+          "groupDesc": "员浏览前的业务验证正式开放知识给前台业务人",
+          "name": "业务验证组",
+          "children": []
+        },
+        {
+          "id": "000107003",
+          "groupId": "20080106053409",
+          "groupDesc": "江苏省中心知识库维护组",
+          "name": "知识库维护组",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "000117",
+      "name": "公告便笺",
+      "children": [
+        {
+          "id": "000117001",
+          "groupId": "01",
+          "groupDesc": "省中心应急组",
+          "name": "省中心应急组",
+          "children": []
+        },
+        {
+          "id": "000117002",
+          "groupId": "02",
+          "groupDesc": "省中心普通组",
+          "name": "省中心普通组",
+          "children": []
+        },
+        {
+          "id": "000117003",
+          "groupId": "03",
+          "groupDesc": "业务支撑小组",
+          "name": "业务支撑小组",
+          "children": []
+        },
+        {
+          "id": "000117004",
+          "groupId": "04",
+          "groupDesc": "省中心VIP组",
+          "name": "省中心VIP组",
+          "children": []
+        },
+        {
+          "id": "000117005",
+          "groupId": "05",
+          "groupDesc": "省中心管理组",
+          "name": "省中心管理组",
+          "children": []
+        },
+        {
+          "id": "000117006",
+          "groupId": "06",
+          "groupDesc": "省淮安管理组",
+          "name": "省淮安管理组",
+          "children": []
+        },
+        {
+          "id": "000117007",
+          "groupId": "07",
+          "groupDesc": "省中心外呼组",
+          "name": "省中心外呼组",
+          "children": []
+        },
+        {
+          "id": "000117008",
+          "groupId": "08",
+          "groupDesc": "省淮安普通组",
+          "name": "省淮安普通组",
+          "children": []
+        },
+        {
+          "id": "000117009",
+          "groupId": "09",
+          "groupDesc": "省淮安VIP组",
+          "name": "省淮安VIP组",
+          "children": []
+        },
+        {
+          "id": "000117100",
+          "groupId": "100",
+          "groupDesc": "无锡12580组",
+          "name": "无锡12580组",
+          "children": []
+        },
+        {
+          "id": "000117101",
+          "groupId": "101",
+          "groupDesc": "无锡营业厅组",
+          "name": "无锡营业厅组",
+          "children": []
+        },
+        {
+          "id": "000117102",
+          "groupId": "102",
+          "groupDesc": "无锡江阴外呼",
+          "name": "无锡江阴外呼",
+          "children": []
+        },
+        {
+          "id": "000117103",
+          "groupId": "103",
+          "groupDesc": "无锡宜兴外呼",
+          "name": "无锡宜兴外呼",
+          "children": []
+        },
+        {
+          "id": "000117104",
+          "groupId": "104",
+          "groupDesc": "无锡机动1",
+          "name": "无锡机动1",
+          "children": []
+        },
+        {
+          "id": "000117105",
+          "groupId": "105",
+          "groupDesc": "无锡机动2",
+          "name": "无锡机动2",
+          "children": []
+        },
+        {
+          "id": "000117106",
+          "groupId": "106",
+          "groupDesc": "无锡机动3",
+          "name": "无锡机动3",
+          "children": []
+        },
+        {
+          "id": "000117107",
+          "groupId": "107",
+          "groupDesc": "无锡机动4",
+          "name": "无锡机动4",
+          "children": []
+        },
+        {
+          "id": "000117108",
+          "groupId": "108",
+          "groupDesc": "无锡机动5",
+          "name": "无锡机动5",
+          "children": []
+        },
+        {
+          "id": "000117109",
+          "groupId": "109",
+          "groupDesc": "扬州12580班组",
+          "name": "扬州12580班组",
+          "children": []
+        },
+        {
+          "id": "000117011",
+          "groupId": "11",
+          "groupDesc": "省淮安全技能",
+          "name": "省淮安全技能",
+          "children": []
+        },
+        {
+          "id": "000117110",
+          "groupId": "110",
+          "groupDesc": "镇江12580组",
+          "name": "镇江12580组",
+          "children": []
+        },
+        {
+          "id": "000117111",
+          "groupId": "111",
+          "groupDesc": "南京12580班组",
+          "name": "南京12580班组",
+          "children": []
+        },
+        {
+          "id": "000117112",
+          "groupId": "112",
+          "groupDesc": "常州12580班组",
+          "name": "常州12580班组",
+          "children": []
+        },
+        {
+          "id": "000117113",
+          "groupId": "113",
+          "groupDesc": "南通12580班组",
+          "name": "南通12580班组",
+          "children": []
+        },
+        {
+          "id": "000117114",
+          "groupId": "114",
+          "groupDesc": "泰州12580",
+          "name": "泰州12580",
+          "children": []
+        },
+        {
+          "id": "000117115",
+          "groupId": "115",
+          "groupDesc": "20050817考试培训系统测试",
+          "name": "20050817考试培训系统测试",
+          "children": []
+        },
+        {
+          "id": "000117116",
+          "groupId": "116",
+          "groupDesc": "常州186097热线",
+          "name": "常州186097热线",
+          "children": []
+        },
+        {
+          "id": "000117117",
+          "groupId": "117",
+          "groupDesc": "泰州青年路营业厅",
+          "name": "泰州青年路营业厅",
+          "children": []
+        },
+        {
+          "id": "000117118",
+          "groupId": "118",
+          "groupDesc": "考试培训系统测试组",
+          "name": "考试培训系统测试组",
+          "children": []
+        },
+        {
+          "id": "000117012",
+          "groupId": "12",
+          "groupDesc": "淮安常州夜班",
+          "name": "淮安常州夜班",
+          "children": []
+        },
+        {
+          "id": "000117131",
+          "groupId": "131",
+          "groupDesc": "省中心现场管理",
+          "name": "省中心现场管理",
+          "children": []
+        },
+        {
+          "id": "000117132",
+          "groupId": "132",
+          "groupDesc": "省中心质量监控",
+          "name": "省中心质量监控",
+          "children": []
+        },
+        {
+          "id": "000117137",
+          "groupId": "137",
+          "groupDesc": "省中心知识库公告一级代理",
+          "name": "省中心知识库公告一级代理",
+          "children": []
+        },
+        {
+          "id": "000117138",
+          "groupId": "138",
+          "groupDesc": "省中心后台组",
+          "name": "省中心后台组",
+          "children": []
+        },
+        {
+          "id": "000117139",
+          "groupId": "139",
+          "groupDesc": "省中心网上客服组",
+          "name": "省中心网上客服组",
+          "children": []
+        },
+        {
+          "id": "000117014",
+          "groupId": "14",
+          "groupDesc": "苏南、苏北混接前台",
+          "name": "苏南、苏北混接前台",
+          "children": []
+        },
+        {
+          "id": "000117140",
+          "groupId": "140",
+          "groupDesc": "徐州12580",
+          "name": "徐州12580",
+          "children": []
+        },
+        {
+          "id": "000117141",
+          "groupId": "141",
+          "groupDesc": "南通12580",
+          "name": "南通12580",
+          "children": []
+        },
+        {
+          "id": "000117142",
+          "groupId": "142",
+          "groupDesc": "宿迁12580班组",
+          "name": "宿迁12580班组",
+          "children": []
+        },
+        {
+          "id": "000117144",
+          "groupId": "144",
+          "groupDesc": "苏州12580",
+          "name": "苏州12580",
+          "children": []
+        },
+        {
+          "id": "000117145",
+          "groupId": "145",
+          "groupDesc": "省中心话务一室",
+          "name": "省中心话务一室",
+          "children": []
+        },
+        {
+          "id": "000117146",
+          "groupId": "146",
+          "groupDesc": "省中心话务二室",
+          "name": "省中心话务二室",
+          "children": []
+        },
+        {
+          "id": "000117147",
+          "groupId": "147",
+          "groupDesc": "省中心话务三室",
+          "name": "省中心话务三室",
+          "children": []
+        },
+        {
+          "id": "000117148",
+          "groupId": "148",
+          "groupDesc": "南通贵宾卡组",
+          "name": "南通贵宾卡组",
+          "children": []
+        },
+        {
+          "id": "000117149",
+          "groupId": "149",
+          "groupDesc": "盐城12580班组",
+          "name": "盐城12580班组",
+          "children": []
+        },
+        {
+          "id": "000117150",
+          "groupId": "150",
+          "groupDesc": "扬州大客户经理",
+          "name": "扬州大客户经理",
+          "children": []
+        },
+        {
+          "id": "000117151",
+          "groupId": "151",
+          "groupDesc": "镇江营业厅组",
+          "name": "镇江营业厅组",
+          "children": []
+        },
+        {
+          "id": "000117152",
+          "groupId": "152",
+          "groupDesc": "镇江丹阳营业厅组",
+          "name": "镇江丹阳营业厅组",
+          "children": []
+        },
+        {
+          "id": "000117153",
+          "groupId": "153",
+          "groupDesc": "镇江句容营业厅组",
+          "name": "镇江句容营业厅组",
+          "children": []
+        },
+        {
+          "id": "000117154",
+          "groupId": "154",
+          "groupDesc": "镇江扬中营业厅组",
+          "name": "镇江扬中营业厅组",
+          "children": []
+        },
+        {
+          "id": "000117155",
+          "groupId": "155",
+          "groupDesc": "省中心苏南集团数据专席组",
+          "name": "省中心苏南集团数据专席组",
+          "children": []
+        },
+        {
+          "id": "000117156",
+          "groupId": "156",
+          "groupDesc": "南京营销中心东区",
+          "name": "南京营销中心东区",
+          "children": []
+        },
+        {
+          "id": "000117157",
+          "groupId": "157",
+          "groupDesc": "南京营销中心南区",
+          "name": "南京营销中心南区",
+          "children": []
+        },
+        {
+          "id": "000117158",
+          "groupId": "158",
+          "groupDesc": "南京营销中心西区",
+          "name": "南京营销中心西区",
+          "children": []
+        },
+        {
+          "id": "000117159",
+          "groupId": "159",
+          "groupDesc": "南京营销中心北区",
+          "name": "南京营销中心北区",
+          "children": []
+        },
+        {
+          "id": "000117017",
+          "groupId": "17",
+          "groupDesc": "泰州外呼",
+          "name": "泰州外呼1",
+          "children": []
+        },
+        {
+          "id": "000117018",
+          "groupId": "18",
+          "groupDesc": "泰州地区后台",
+          "name": "泰州地区后台",
+          "children": []
+        },
+        {
+          "id": "000117019",
+          "groupId": "19",
+          "groupDesc": "南通市后台",
+          "name": "南通市后台",
+          "children": []
+        },
+        {
+          "id": "000117020",
+          "groupId": "20",
+          "groupDesc": "南通外呼组",
+          "name": "南通外呼组",
+          "children": []
+        },
+        {
+          "id": "000117160",
+          "groupId": "20071227142039",
+          "groupDesc": null,
+          "name": "省中心投诉处理组",
+          "children": []
+        },
+        {
+          "id": "000117161",
+          "groupId": "20080107102926",
+          "groupDesc": "镇江市区合作厅",
+          "name": "镇江市区合作厅",
+          "children": []
+        },
+        {
+          "id": "000117162",
+          "groupId": "20080117160651",
+          "groupDesc": null,
+          "name": "淮安外呼班组",
+          "children": []
+        },
+        {
+          "id": "000117163",
+          "groupId": "2016031137104",
+          "groupDesc": "www",
+          "name": "公告",
+          "children": []
+        },
+        {
+          "id": "000117021",
+          "groupId": "21",
+          "groupDesc": "扬州投诉处理",
+          "name": "扬州投诉处理",
+          "children": []
+        },
+        {
+          "id": "000117022",
+          "groupId": "22",
+          "groupDesc": "扬州外呼组",
+          "name": "扬州外呼组",
+          "children": []
+        },
+        {
+          "id": "000117023",
+          "groupId": "23",
+          "groupDesc": "镇江管理",
+          "name": "镇江管理",
+          "children": []
+        },
+        {
+          "id": "000117024",
+          "groupId": "24",
+          "groupDesc": "盐城投诉班",
+          "name": "盐城投诉班",
+          "children": []
+        },
+        {
+          "id": "000117026",
+          "groupId": "26",
+          "groupDesc": "盐城外呼班",
+          "name": "盐城外呼班",
+          "children": []
+        },
+        {
+          "id": "000117027",
+          "groupId": "27",
+          "groupDesc": "镇江后台",
+          "name": "镇江后台",
+          "children": []
+        },
+        {
+          "id": "000117028",
+          "groupId": "28",
+          "groupDesc": "镇江外呼组",
+          "name": "镇江外呼组",
+          "children": []
+        },
+        {
+          "id": "000117035",
+          "groupId": "35",
+          "groupDesc": "徐州12580班组",
+          "name": "徐州12580班组",
+          "children": []
+        },
+        {
+          "id": "000117042",
+          "groupId": "42",
+          "groupDesc": "常州1860",
+          "name": "常州1860",
+          "children": []
+        },
+        {
+          "id": "000117043",
+          "groupId": "43",
+          "groupDesc": "常州1860外呼",
+          "name": "常州1860外呼",
+          "children": []
+        },
+        {
+          "id": "000117044",
+          "groupId": "44",
+          "groupDesc": "常州大客户",
+          "name": "常州大客户",
+          "children": []
+        },
+        {
+          "id": "000117047",
+          "groupId": "47",
+          "groupDesc": "宿迁市后台",
+          "name": "宿迁市后台",
+          "children": []
+        },
+        {
+          "id": "000117048",
+          "groupId": "48",
+          "groupDesc": "宿迁外呼班",
+          "name": "宿迁外呼班",
+          "children": []
+        },
+        {
+          "id": "000117049",
+          "groupId": "49",
+          "groupDesc": "宿迁12580组",
+          "name": "宿迁12580组",
+          "children": []
+        },
+        {
+          "id": "000117050",
+          "groupId": "50",
+          "groupDesc": "省中心质检组",
+          "name": "省中心质检组",
+          "children": []
+        },
+        {
+          "id": "000117054",
+          "groupId": "54",
+          "groupDesc": "南京后台班组",
+          "name": "南京后台班组",
+          "children": []
+        },
+        {
+          "id": "000117055",
+          "groupId": "55",
+          "groupDesc": "南京质检组",
+          "name": "南京质检组",
+          "children": []
+        },
+        {
+          "id": "000117056",
+          "groupId": "56",
+          "groupDesc": "南京18609班",
+          "name": "南京18609班",
+          "children": []
+        },
+        {
+          "id": "000117058",
+          "groupId": "58",
+          "groupDesc": "无锡1860组",
+          "name": "无锡1860组",
+          "children": []
+        },
+        {
+          "id": "000117059",
+          "groupId": "59",
+          "groupDesc": "无锡外呼组",
+          "name": "无锡外呼组",
+          "children": []
+        },
+        {
+          "id": "000117060",
+          "groupId": "60",
+          "groupDesc": "无锡大客户",
+          "name": "无锡大客户",
+          "children": []
+        },
+        {
+          "id": "000117061",
+          "groupId": "61",
+          "groupDesc": "南京外呼班",
+          "name": "南京外呼班",
+          "children": []
+        },
+        {
+          "id": "000117062",
+          "groupId": "62",
+          "groupDesc": "南京大客户组",
+          "name": "南京大客户组",
+          "children": []
+        },
+        {
+          "id": "000117063",
+          "groupId": "63",
+          "groupDesc": "南京1258班组",
+          "name": "南京1258班组",
+          "children": []
+        },
+        {
+          "id": "000117064",
+          "groupId": "64",
+          "groupDesc": "营销管理中心",
+          "name": "营销管理中心",
+          "children": []
+        },
+        {
+          "id": "000117065",
+          "groupId": "65",
+          "groupDesc": "南京六合公司",
+          "name": "南京六合公司",
+          "children": []
+        },
+        {
+          "id": "000117066",
+          "groupId": "66",
+          "groupDesc": "南京江宁公司",
+          "name": "南京江宁公司",
+          "children": []
+        },
+        {
+          "id": "000117067",
+          "groupId": "67",
+          "groupDesc": "南京江浦公司",
+          "name": "南京江浦公司",
+          "children": []
+        },
+        {
+          "id": "000117068",
+          "groupId": "68",
+          "groupDesc": "南京溧水公司",
+          "name": "南京溧水公司",
+          "children": []
+        },
+        {
+          "id": "000117069",
+          "groupId": "69",
+          "groupDesc": "南京话务D班",
+          "name": "南京话务D班",
+          "children": []
+        },
+        {
+          "id": "000117070",
+          "groupId": "70",
+          "groupDesc": "南京运维中心",
+          "name": "南京运维中心",
+          "children": []
+        },
+        {
+          "id": "000117071",
+          "groupId": "71",
+          "groupDesc": "南京网优中心",
+          "name": "南京网优中心",
+          "children": []
+        },
+        {
+          "id": "000117072",
+          "groupId": "72",
+          "groupDesc": "南京高淳公司",
+          "name": "南京高淳公司",
+          "children": []
+        },
+        {
+          "id": "000117073",
+          "groupId": "73",
+          "groupDesc": "南京应急人员",
+          "name": "南京应急人员",
+          "children": []
+        },
+        {
+          "id": "000117074",
+          "groupId": "74",
+          "groupDesc": "NJ新业务中心",
+          "name": "NJ新业务中心",
+          "children": []
+        },
+        {
+          "id": "000117075",
+          "groupId": "75",
+          "groupDesc": "南京策划组",
+          "name": "南京策划组",
+          "children": []
+        },
+        {
+          "id": "000117078",
+          "groupId": "78",
+          "groupDesc": "连云港后台",
+          "name": "连云港后台",
+          "children": []
+        },
+        {
+          "id": "000117079",
+          "groupId": "79",
+          "groupDesc": "连云港外呼组",
+          "name": "连云港外呼组",
+          "children": []
+        },
+        {
+          "id": "000117080",
+          "groupId": "80",
+          "groupDesc": "连12580组",
+          "name": "连12580组",
+          "children": []
+        },
+        {
+          "id": "000117081",
+          "groupId": "81",
+          "groupDesc": "苏州1860",
+          "name": "苏州1860",
+          "children": []
+        },
+        {
+          "id": "000117082",
+          "groupId": "82",
+          "groupDesc": "苏州1860维护",
+          "name": "苏州1860维护",
+          "children": []
+        },
+        {
+          "id": "000117083",
+          "groupId": "83",
+          "groupDesc": "苏州1860督导",
+          "name": "苏州1860督导",
+          "children": []
+        },
+        {
+          "id": "000117084",
+          "groupId": "84",
+          "groupDesc": "苏州1860投诉",
+          "name": "苏州1860投诉",
+          "children": []
+        },
+        {
+          "id": "000117085",
+          "groupId": "85",
+          "groupDesc": "苏州1860机动",
+          "name": "苏州1860机动",
+          "children": []
+        },
+        {
+          "id": "000117086",
+          "groupId": "86",
+          "groupDesc": "苏州外呼1",
+          "name": "苏州外呼1",
+          "children": []
+        },
+        {
+          "id": "000117087",
+          "groupId": "87",
+          "groupDesc": "苏州外呼2",
+          "name": "苏州外呼2",
+          "children": []
+        },
+        {
+          "id": "000117088",
+          "groupId": "88",
+          "groupDesc": "苏州话务1",
+          "name": "苏州话务1",
+          "children": []
+        },
+        {
+          "id": "000117089",
+          "groupId": "89",
+          "groupDesc": "苏州话务2",
+          "name": "苏州话务2",
+          "children": []
+        },
+        {
+          "id": "000117090",
+          "groupId": "90",
+          "groupDesc": "苏州话务3",
+          "name": "苏州话务3",
+          "children": []
+        },
+        {
+          "id": "000117091",
+          "groupId": "91",
+          "groupDesc": "苏州话务4",
+          "name": "苏州话务4",
+          "children": []
+        },
+        {
+          "id": "000117092",
+          "groupId": "92",
+          "groupDesc": "苏州话务5",
+          "name": "苏州话务5",
+          "children": []
+        },
+        {
+          "id": "000117093",
+          "groupId": "93",
+          "groupDesc": "苏州话务6",
+          "name": "苏州话务6",
+          "children": []
+        },
+        {
+          "id": "000117094",
+          "groupId": "94",
+          "groupDesc": "苏州话务7",
+          "name": "苏州话务7",
+          "children": []
+        },
+        {
+          "id": "000117095",
+          "groupId": "95",
+          "groupDesc": "苏州1860",
+          "name": "苏州1860",
+          "children": []
+        },
+        {
+          "id": "000117098",
+          "groupId": "98",
+          "groupDesc": "徐州市后台",
+          "name": "徐州市后台",
+          "children": []
+        },
+        {
+          "id": "000117099",
+          "groupId": "99",
+          "groupDesc": "徐州外呼组",
+          "name": "徐州外呼组",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "000142",
+      "name": "社会化媒体支撑平台",
+      "children": [
+        {
+          "id": "000142001",
+          "groupId": "2016030202702",
+          "groupDesc": "测试顶级节点工作组",
+          "name": "添加社会化工作组",
+          "children": [
+            {
+              "id": "000142001001",
+              "groupId": "2016031719802",
+              "groupDesc": "地名",
+              "name": "陈河",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "000142002",
+          "groupId": "2016031617202",
+          "groupDesc": "xib",
+          "name": "西藏工作组",
+          "children": [
+            {
+              "id": "000142002001",
+              "groupId": "2016031719803",
+              "groupDesc": "dfdf",
+              "name": "拉萨工作组",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "000142003",
+          "groupId": "2016031813409",
+          "groupDesc": "   我问问",
+          "name": "细信息",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "object": null
+}

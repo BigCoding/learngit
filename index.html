@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="renderer" content="webkit" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <title>前端基础框架</title>
+        <link rel="stylesheet" href="src/assets/css/basic.css" />
+        <link rel="stylesheet" href="src/assets/css/common.css" />
+        <link rel="stylesheet" href="src/assets/css/app_new.css" />
+        <link rel="stylesheet" href="src/assets/css/Tab.css" />
+        <link rel="stylesheet" href="src/assets/css/ProcessBar.css" />
+        <link rel="stylesheet" href="src/assets/css/scrollBar.css" />
+        <link rel="stylesheet" href="src/assets/css/PopWin.css" />
+        <link rel="stylesheet" href="src/assets/css/droplist.css" />
+        <!-- demo style -->
+        <link rel="stylesheet" href="src/assets/css/styles/demo.css" />
+    </head>
+    <body>
+        <!-- <div class="maskloading " id="indexLoading">
+            <div class="pic">
+                <span></span>
+            </div>
+        </div> -->
+        <div id="header"></div>
+        <div id="content">
+            <div class="nav"></div>
+            <!-- <div class="flagContainer"><div class="leftSc"></div></div> -->
+            <div class="section">
+                <div class="userInfoCont"></div>
+                <div id="chatWarpContainer"></div>
+                
+            </div>
+        </div>
+        <div class="popLayoutWaep weiboAttention" id="weiboAttention">
+            <div class="popContRight">
+                <div class="popLayout">
+                    <div class="topTrangle">
+                    </div>
+                    <div class="accountInfo">
+                        <dl>
+                            <dt>
+                                账号名
+                            </dt>
+                            <dd>
+                                爱晒太阳的猫
+                            </dd>
+                        </dl>
+                        <div class="btnsCon">
+                            <a class="greenBtn" href="javascript:void(0);">
+                                <span>
+                                    <b>
+                                        <i class="plus">
+                                            &nbsp;
+                                        </i>
+                                        加关注
+                                    </b>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="popBotR">
+                <div class="popBotC">
+                </div>
+            </div>
+        </div>
+        
+        <script>
+            //解决ie下console.log()报错问题
+            window.console = window.console || (function(){
+                var c = {};
+                c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+                return c;
+            })();
+            window.UEDITOR_HOME_URL = './src/assets/lib/ueditor/';
+        </script>
+        <script src="src/assets/common/requirejsMain.js"></script>
+        <script src="src/assets/lib/requirejs/requirejs.min.js" data-main="js/index/index"></script>
+    </body>
+</html>

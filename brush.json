@@ -1,0 +1,12 @@
+{
+    "name": "learngit",
+    "connect": {
+        "port": 8892,
+        "dataDir": "data/",
+        "mockConfig": "./mockConfig.json"
+    },
+    "compts": {
+        "output": "./src/assets/"
+    },
+    "frameVersion": "0.0.1"
+}

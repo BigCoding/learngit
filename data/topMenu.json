@@ -1,0 +1,52 @@
+{
+    "returnCode": "0",
+    "returnMessage": null,
+    "beans": [
+        {
+            "menuId":"1000",
+            "menuName":"功能演示",
+            "secondMenu":[
+                {
+                    "menuId":"10000",
+                    "menuName":"组件",
+                    "thirdMenu":[
+                        {
+                            "menuId":"100001",
+                            "menuName":"列表",
+                            "url":"js/example/component/list/list"
+                        },
+                        {
+                            "menuId":"100002",
+                            "menuName":"表单验证",
+                            "url":"js/example/component/validator/validator"
+                        }
+
+                    ]
+                },
+                {
+                    "menuId":"10001",
+                    "menuName":"业务组件",
+                    "thirdMenu":[
+                        {
+                            "menuId":"100011",
+                            "menuName":"业务弹出树",
+                            "url":"js/example/busiComponent/popupTree/popupTree"
+                        }
+                    ]
+                }
+
+                
+
+
+
+            ]
+        }
+
+
+
+        
+
+
+        
+    ]
+}

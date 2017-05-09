@@ -1,0 +1,43 @@
+/*tabs*/
+#tabs{position: relative;margin-top: -61px;}
+
+.uiTab {width:auto; height:100%; overflow: visible; zoom:1; }
+.uiTab .uiTabHeadOutWrap { zoom:1; border-bottom:1px solid #c6c6c6; position:relative; height:30px; overflow:visible; }
+.uiTab .uiTabHeadOutWrappo { position:absolute; }
+.uiTab .uiTabHeadOutWrappo { position:absolute; }
+.uiTab .headMarginWrap { margin-left:35px; margin-right:21px; /*80px*/ overflow:visible; height:31px; margin-bottom:-1px; }
+.uiTab .uiTabHeadOutWrap .headScrollWrap { overflow: hidden; zoom:1; width:100%; position:relative; height:31px; }
+.uiTab ul.uiTabHead { position:static; overflow: hidden; margin:0; padding:0; list-style:none; height:31px; line-height:30px; -moz-user-select:none; width:5000px;}
+/** used for pointer to tab.position absolute in doc body*/
+.uiTab .uiTabHeadOutWrap .uiTabListDiv { position:absolute; right:0px; /*44px*/ top:0; height:31px; width:20px; display:none;z-index:8; }
+.uiTab .uiTabHeadOutWrap .uiTabListDiv .dropbtn { height:30px; width:20px; border:0; background:url(../img/tab/dropbtn.png) no-repeat center center; cursor:pointer; }
+.uiTab.showDropBtn .uiTabHeadOutWrap .uiTabListDiv { display: block; }
+.uiTab.showDropBtn .headMarginWrap { margin-right:21px; }
+.uiTabListArea { text-decoration:none; position:absolute; border:1px solid #CCCCCC; background: white; padding:5px 3px; display: block; z-index:1000; -moz-box-shadow: 3px 3px 3px 0 #6e6e6e; box-shadow:3px 3px 3px 0 #6e6e6e; -moz-outline: none; outline: none; right: 0; top:24px; }
+.uiTabListArea:hover { text-decoration: none; }
+.uiTabListArea.hidden { display:none; }
+.uiTabListArea .uiTabListAreaWrap { text-decoration:none; display:block; outline:none; }
+.uiTabListArea ul { list-style:none; margin:0; padding:0; }
+.uiTabListArea li { cursor:pointer; padding:3px 5px; display:block; font-size:12px; white-space: nowrap; text-overflow:ellipsis; overflow:hidden; float:left; }
+.uiTabListArea li:hover { background:#ccc; }
+.uiTabListArea li a { color:#000; text-decoration:none; }
+.uiTabListArea li a:hover { text-decoration:none; }
+.uiTabListArea li.selected { background:#333; color:#fff; font-weight:bold; }
+.uiTabListArea li.selected a { color:#fff; }
+
+/** tab item*/
+.uiTab .uiTabItemHead {background:url(../img/tab2.png) repeat-x center 1px;border:1px solid #ccc;border-width:1px 1px 0;padding:0 16px;padding:0 16px;vertical-align:top;height:29px;line-height:29px;display:inline-block;*display:inline;*zoom:1;position:relative;}
+.uiTab .uiTabItemHead.closable {position:relative;}
+
+/*tab item hover=== 选中显示样式*/
+.uiTab .uiTabHead .uiTabItemHead.selected {background:url(../img/tab2Sel.png) repeat-x center top;position:relative;bottom:-1px;border:none;height:30px}
+.uiTab .uiTabItemHead .uiTabClose { background:url(../img/tab/close.png) no-repeat center center; display:inline-block; width:12px; height:20px; margin-right:1px; position:absolute; top:1px; right:1px;  *top:0;*right:0; *height:17px;visibility:hidden; }
+.uiTab .uiTabItemHead.selected .uiTabClose { background-image:url(../img/tab/closeW.png);}
+.uiTab .uiTabItemHead.over .uiTabClose,.uiTab .uiTabItemHead:hover .uiTabClose {visibility:visible; }
+
+/*业务开发需要，请暂时不要修改此处的高度，如有需要，请与张秉哲联系*/
+.uiTab .uiTabBody { z-index:1; background:#fff;}
+.uiTab .uiTabItemBody { display:none; overflow:auto; height:100%; }
+.uiTab .uiTabItemBody.selected { display:block;position: relative }
+
+

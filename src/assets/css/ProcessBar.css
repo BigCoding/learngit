@@ -1,0 +1,22 @@
+/*进度条黑色框框样式*/
+.process{position:absolute;margin:0 auto;width:211px;height:51px;background:url(../img/process/pro_bg.png) no-repeat;top:0px;}
+.process .proCont{margin:12px;overflow:hidden;}  
+.process .proLeft{width:158px; }
+.process .proRight{width:26px;float:right;height:30px}
+.process .proRight .closePro{display:block;background:url(../img/process/close.png) no-repeat right center;height:100%}
+.process h3{color:#fff;margin-bottom:7px;}
+.process .proWrap{height:7px;background:url(../img/process/pro_wrap.png) no-repeat;}
+.process .proInner{height:100%;background:url(../img/process/pro_inner.png) repeat-x left top;width:65%;}
+
+/*进度条外背景*/
+.processBarLeftWrap { height:7px;background:url(../img/process/pro_wrap.png) no-repeat;}
+/*进度条的内背景*/
+.processBar .bg { float:left; background:url(../img/process/pro_inner.png) repeat-x left top;width:65%; border:0; z-index:1;height:7px; }
+/*左边的圆角*/
+.processBar .leftExt { float:left;}
+/*右边的圆角*/
+.processBar .rightExt { float:left;}
+/*文字样式*/
+.processBarText { position: absolute;top: -23px;color:#fff;}
+/*自定义样式*/
+.uploadProcess{position:relative;margin-top:23px;}

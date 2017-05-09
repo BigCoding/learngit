@@ -1,0 +1,170 @@
+{
+  "busiCode": null,
+  "opId": null,
+  "phone": null,
+  "returnCode": "0",
+  "returnMessage": null,
+  "bean": {},
+  "beans": [
+    {
+      "id": "100000010001",
+      "isEdit": "1",
+      "parentTypeId": "100000010000",
+      "name": "2015",
+      "children": [
+        {
+          "id": "100000010003",
+          "isEdit": "0",
+          "parentTypeId": "100000010001",
+          "name": "一级客服公告2015test打的的的的",
+          "notes": ""
+        },
+        {
+          "id": "100000010004",
+          "isEdit": "0",
+          "parentTypeId": "100000010001",
+          "name": "普通公告2015测试",
+          "notes": "地方撒发大水"
+        },
+        {
+          "id": "100000010019",
+          "isEdit": "0",
+          "parentTypeId": "100000010001",
+          "name": "紧急公告testk",
+          "notes": "撒旦法"
+        },
+        {
+          "id": "100000010047",
+          "isEdit": "0",
+          "parentTypeId": "100000010001",
+          "name": "通天塔",
+          "notes": ""
+        },
+        {
+          "id": "20160329223716407",
+          "isEdit": "0",
+          "parentTypeId": "100000010001",
+          "name": "测试类别",
+          "notes": ""
+        }
+      ],
+      "notes": "地方"
+    },
+    {
+      "id": "100000010002",
+      "isEdit": "1",
+      "parentTypeId": "100000010000",
+      "name": "2016",
+      "children": [
+        {
+          "id": "100000010005",
+          "isEdit": "0",
+          "parentTypeId": "100000010002",
+          "name": "一级客服公告2016",
+          "notes": "2223333"
+        },
+        {
+          "id": "100000010006",
+          "isEdit": "0",
+          "parentTypeId": "100000010002",
+          "name": "普通公告",
+          "notes": "的萨菲发生"
+        },
+        {
+          "id": "100000010043",
+          "isEdit": "0",
+          "parentTypeId": "100000010002",
+          "name": "类别001",
+          "notes": ""
+        }
+      ],
+      "notes": "afsd"
+    },
+    {
+      "id": "100000010027",
+      "isEdit": "0",
+      "parentTypeId": "100000010000",
+      "name": "yyyy",
+      "children": [
+        {
+          "id": "100000010039",
+          "isEdit": "0",
+          "parentTypeId": "100000010027",
+          "name": "tttttt",
+          "notes": "ttttt"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "100000010029",
+      "isEdit": "0",
+      "parentTypeId": "100000010000",
+      "name": "test",
+      "children": [
+        {
+          "id": "100000010030",
+          "isEdit": "0",
+          "parentTypeId": "100000010029",
+          "name": "杨超测试",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "100000010033",
+      "isEdit": "0",
+      "parentTypeId": "100000010000",
+      "name": "test100",
+      "children": [
+        {
+          "id": "100000010034",
+          "isEdit": "0",
+          "parentTypeId": "100000010033",
+          "name": "yangchaoTest",
+          "notes": ""
+        },
+        {
+          "id": "100000010035",
+          "isEdit": "0",
+          "parentTypeId": "100000010033",
+          "name": "yangchaoTest2",
+          "notes": ""
+        },
+        {
+          "id": "100000010038",
+          "isEdit": "0",
+          "parentTypeId": "100000010033",
+          "name": "yangchaoTest3",
+          "notes": ""
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "100000010040",
+      "isEdit": "0",
+      "parentTypeId": "100000010000",
+      "name": "2016test",
+      "children": [
+        {
+          "id": "100000010044",
+          "isEdit": "0",
+          "parentTypeId": "100000010040",
+          "name": "011",
+          "notes": ""
+        },
+        {
+          "id": "100000010052",
+          "isEdit": "0",
+          "parentTypeId": "100000010040",
+          "name": "测试数据",
+          "notes": "测试"
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "object": null
+}

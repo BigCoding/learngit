@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* demo演示区域高度重置 */
+#content .section #chatWarpContainer {
+  top: 12px;
+}
+
+.demo {
+  color: #333;
+  padding: 20px;
+}
+
+.demo h3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.demo p {
+  font-size: 14px;
+  color: #666;
+  padding: 6px 0;
+  line-height: 20px;
+}
+
+.demo-example .jf-form {
+  margin-bottom: 0;
+}
+
+.demo-example {
+  position: relative;
+  margin: 15px 0 25px 0;
+  padding: 39px 19px 14px;
+  *padding-top: 19px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.demo-example:after {
+  content: "Example";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  padding: 6px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  color: #9da0a4;
+  -webkit-border-radius: 4px 0 4px 0;
+     -moz-border-radius: 4px 0 4px 0;
+          border-radius: 4px 0 4px 0;
+}
+
+.demo-code {
+  width: 49%;
+  float: left;
+}
+
+.demo-code:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.demo-code.fr {
+  float: right !important;
+}
+
+.demo-code pre {
+  display: block;
+  padding: 8px;
+  margin: 10px 0;
+  font-size: 13px;
+  line-height: 20px;
+  word-break: break-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: pre-wrap;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.15);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+
+/* add by  zhanglizhao  */
+.jp-controls-holder {width: 409px;}
+.jp-volume-controls{z-index: 50;}

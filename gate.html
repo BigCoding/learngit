@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="renderer" content="webkit" />
+        <meta http-equiv="X-UA-Compatible" content="IE=8" >
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <title>前端基础框架</title>
+        <link rel="stylesheet" href="src/assets/css/basic.css" />
+        <link rel="stylesheet" href="src/assets/css/common.css" />
+        <link rel="stylesheet" href="src/assets/css/app_new.css" />
+        <link rel="stylesheet" href="src/assets/css/Tab.css" />
+        <link rel="stylesheet" href="src/assets/css/ProcessBar.css" />
+        <link rel="stylesheet" href="src/assets/css/scrollBar.css" />
+        <link rel="stylesheet" href="src/assets/css/PopWin.css" />
+        <link rel="stylesheet" href="src/assets/css/droplist.css" />
+        <!-- demo style -->
+        <link rel="stylesheet" href="src/assets/css/styles/demo.css" />
+        <style type="text/css"></style>
+        style
+    </head>
+    <body>
+        <div id="contentArea"></div>
+        <script>
+            //解决ie下console.log()报错问题
+            window.console = window.console || (function(){
+                var c = {};
+                c.log = c.warn = c.debug = c.info = c.error = c.time = c.dir = c.profile = c.clear = c.exception = c.trace = c.assert = function(){};
+                return c;
+            })();
+        </script>
+        <script type="text/javascript" src="http://localhost:8890/ngcs/crossAPI.js"></script>
+        <script type="text/javascript" src="src/assets/common/requirejsMain.js"></script>
+        <script src="node_modules/compts_npm/lib/requirejs/requirejs.min.js" data-main="js/gate"></script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+.scrollBody { position: relative; }
+.customscroll { }        /*只需对需要渲染滚动条的div设置该class即可*/
+.customscroll_area { height: 100%; overflow: hidden; }
+.customscroll_bar, .customscroll_handle, .customscroll_handle_a, .customscroll_arrow_up, .customscroll_arrow_up_a, .customscroll_arrow_down, .customscroll_arrow_down_a { }
+.customscroll_bar { position: absolute; top: 0; right: 0; z-index: 9; width: 7px; height: 100%; cursor: default; -moz-user-select: none; -khtml-user-select: none; user-select: none; background-repeat: repeat-y; background-image: /*url(../img/scrollbar/handleBg.png)*/; float: left; }
+.customscroll_arrow_up, .customscroll_arrow_up_a, .customscroll_handle, .customscroll_handle_a, .customscroll_arrow_down, .customscroll_arrow_down_a { position: absolute; left: 0; }
+.customscroll_arrow_up, .customscroll_arrow_up_a, .customscroll_arrow_down, .customscroll_arrow_down_a { width: 100%; height: 14px; color: #fff; text-align: center; }
+.customscroll_arrow_up, .customscroll_arrow_up_a { top: 0; }
+.customscroll_arrow_down, .customscroll_arrow_down_a { bottom: 0; }
+.customscroll_handle, .customscroll_handle_a { width: 100%; background-repeat: repeat-y; }
+.customscroll_arrow_up, .customscroll_arrow_up_a { background: /*url(../img/scrollbar/scrollbarIco.png)*/ 4px 4px no-repeat; }
+.customscroll_handle, .customscroll_handle .customscroll_handleBottom, .customscroll_handle .customscroll_handleMiddle, .customscroll_handle_a, .customscroll_handle_a .customscroll_handleBottom, .customscroll_handle_a .customscroll_handleMiddle { background-image: url(../img/scrollbar/handle.png); width: 5px; display: inline-block; }
+.customscroll_handle, .customscroll_handle_a { background-position: -28px bottom; background-repeat: no-repeat; margin-left: 1px; }
+.customscroll_handle .customscroll_handleBottom, .customscroll_handle_a .customscroll_handleBottom { background-position: 0 top; background-repeat: no-repeat; height: 100%; padding: 4px 0; }
+.customscroll_handle .customscroll_handleMiddle, .customscroll_handle_a .customscroll_handleMiddle { background-position: -14px 0; background-repeat: repeat-y; height: 100%; }
+.customscroll_arrow_down, .customscroll_arrow_down_a { background: /*url(../img/scrollbar/scrollbarIco.png)*/ 4px -11px no-repeat; }
+.handleMain { background:/* url(../img/scrollbar/handleBg.png)*/ right repeat-y; width: 10px !important; }
+.handleTop, .handleTop .handleBottom, .handleTop .handleBottom .handleMiddle { background-image: url(../img/scrollbar/handle.png); width: 5px; display: inline-block; }
+.handleTop { background-position: right bottom; background-repeat: no-repeat; left: -2px; width: 5px !important; }
+.handleTop .handleBottom { background-position: left top; background-repeat: no-repeat; padding: 3px 0 }
+.handleTop .handleBottom .handleMiddle { background-position: center center; background-repeat: repeat-y; height: 100%; }

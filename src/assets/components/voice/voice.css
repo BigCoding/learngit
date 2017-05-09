@@ -1,0 +1,29 @@
+li {
+    list-style: none;
+}
+
+.btn.fr {
+    margin-left: 12px;
+    margin-right: 0;
+}
+
+.btn-blue, a.btn-blue {
+    background: #3A8BE0;
+    border-color: #4A81C4;
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    margin-right: 10px;
+    border: 1px solid #DDD;
+    padding: 0 14px;
+    background: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+}

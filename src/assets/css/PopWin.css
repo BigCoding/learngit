@@ -1,0 +1,59 @@
+
+html.fullScreen, html.fullScreen body { overflow:hidden !important; height:100%; _padding:0; }
+.popWin { position:absolute; padding:0; z-index:99999; overflow: hidden; }
+.popWin.moving { filter:IE8->alpha(opacity=50); -moz-opacity:0.5; opacity: 0.5; }
+.popWin .titlewrap1 { background:url(../img/popWin/bustopleft.png) no-repeat left 1px; height:69px; left:0px; right:0px; }
+.popWin .titlewrap1 .titlewrap2 { background:url(../img/popWin/bustopright.png) no-repeat right 1px; height:69px; }
+.popWin .titlewrap1 .titlewrap2 .titlewrap3 { background:url(../img/popWin/bustopmid.png) repeat-x center 0; line-height:56px; padding:12px 0 0 0; height:57px; margin:0 60px; width:auto; }
+.popWin .bodyWrapOuter { background:url(../img/popWin/busbodyleft.png) repeat-y left center; }
+.popWin .bodyWrapInner { background:url(../img/popWin/busbodyright.png) repeat-y right center;
+}
+.popWin .bodyWrapInner2 { overflow:auto; padding:0; margin:0 60px; background:#f2f2f2; }
+.popWin .footWrap1 { background:url(../img/popWin/busfootleft.png) no-repeat left 0; height:127px; left:0px; right:0px; }
+.popWin .footWrap1 .footWrap2 { background:url(../img/popWin/busfootright.png) no-repeat right 0; height:127px; }
+.popWin .footWrap1 .footWrap2 .footWrap3 { background:url(../img/popWin/busfootmid.png) repeat-x center 0; height:62px; padding:0 0 65px 0; margin:0 100px; width:auto; }
+.popWin .winbox { width:100%; height:auto; overflow:visible; table-layout:fixed; }
+.popWin .title { line-height:56px; height:56px; }
+.popWin .title td { border:0; }
+.popWin .title .text { padding:0 5px; color:#333; line-height:56px; height:56px; font-size:18px; white-space:nowrap; text-overflow:ellipsis; overflow: hidden; }
+.popWin .title .text.hover { cursor:move; }
+.popWin .title .toolbar { width:30px; padding:0 3px; line-height:28px; height:28px; white-space:nowrap; text-overflow:ellipsis; overflow: hidden; text-align:right; }
+.popWin .title .closeBtn { background:transparent url(../img/popWin/close.png) no-repeat center; width:30px; height:30px; cursor:pointer; border:0; }
+.popWin .title .closeBtn:hover { background:transparent url(../img/popWin/close_hover.png) center center no-repeat;}
+.popWin .content { overflow:auto; padding:0 !important; margin:0 !important; vertical-align:top; border:0; }
+.popWin .content .inner { color:#333; padding:10px; overflow:auto; }
+.popWinFilter { position:fixed; _position:absolute; left:0; top:0; width:100%; height:100%; z-index:99998; background:#CCC; filter: alpha(opacity=50); -moz-opacity:0.5; opacity: 0.5; }
+.popWin .up { display: inline-block; width: 100%; height: 10px; background: transparent; cursor: n-resize; position:absolute; left:0; top:0; z-index:1000000; }
+.popWin .down { width: 100%; height: 10px; background: transparent; cursor: n-resize; position:absolute; left:0; bottom:5px; z-index:1000001; }
+.popWin .pLeft { width: 10px; height:100%; background: transparent; cursor: e-resize; position:absolute; left:0; top:0; z-index:1000003; }
+.popWin .pRight { width: 10px; height:100%; background: transparent; cursor: e-resize; position:absolute; right:5px; top:0; z-index:1000004; }
+.popWin .tlAngle { position: absolute; width:12px; height:12px; left:0px; top:0px; cursor: nw-resize; z-index:1000005; }
+.popWin .tRAngle { position: absolute; width:12px; height:12px; right: 5px; top: 0px; cursor: ne-resize; z-index:1000006; }
+.popWin .blAngle { position: absolute; width:12px; height:12px; left: 0px; bottom: 5px; cursor: ne-resize; z-index:1000007; }
+.popWin .bRAngle { position: absolute; width:12px; height:12px; right: 5px; bottom: 5px; cursor: se-resize; z-index:1000008; }
+
+
+.popWin .buttons {
+	padding-top:15px;
+	text-align:center;
+	}
+.popWin .buttons .rightBtns {
+	overflow:hidden;
+	float:right;
+	}
+.popWin .buttons .btnConfirm, .popWin .buttons .btnCancel {
+	color:#fff;
+	width:91px;
+	height:33px;
+	margin:0 5px;
+	line-height:33px;
+	font-size:16px;
+	text-align:center;
+	vertical-align:middle;
+	display:inline-block;
+	background:url(../img/btnConfirm.png) center center no-repeat;
+	}
+.popWin .buttons .btnCancel {
+	color:#333;
+	background:url(../img/btnCancel.png) center center no-repeat;
+	}

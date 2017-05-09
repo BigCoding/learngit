@@ -1,0 +1,10 @@
+{
+    "front/sh/common!queryCTIInfo":"communication/queryCTIInfo.json",
+    "front":"list.json",
+    "front/sh/common!execute":"",
+    "front/sh/common!staffInfo":"userInfo.json",
+    "front/sh/common!sysMenu":"topMenu.json",
+    "front/sh/afficheList!execute":"notice.json",
+    "front/sh/common!shortCntMenu":"shortMenu.json",
+    "front/sh/popUp!execute":"select.json"
+}

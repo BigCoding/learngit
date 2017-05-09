@@ -1,0 +1,23 @@
+
+.ui-dialog-content { overflow-y:auto; }
+.sn-selectTree label {display: inline-block;}
+.sn-selectTree div {display: inline-block;}
+.sn-selectTree .btnStyle { display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    margin-right: 10px;
+    border: 1px solid #DDD;
+    padding: 0 14px;
+    background: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    position: relative;
+    white-space: nowrap;
+    color: #333;}
+.sn-selectTree .textStyle { background-image: url('images/selectTree.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position: right center;}
+#treeContainer1,#treeContainer2 { display: inline-block;
+    margin-right:50px;}

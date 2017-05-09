@@ -1,0 +1,126 @@
+.Droplist {
+	position:relative;
+	padding-left:6px;
+	-webkit-user-select:none;
+	-ms-user-select:none;
+	-o-user-select:none;
+	user-select:none;
+	vertical-align:middle;
+	background:#fff;
+	border:1px solid #C3C3C3;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	}
+.Droplist .inputbox {
+	background:#ffffff;
+	width:100%;
+	height:100%;
+	margin:0;
+	border:none;
+    line-height:22px;
+	}
+.Droplist .trigger {
+	position:absolute;
+	right:3px;
+	top:8px;
+	width:7px;
+	height:7px ;
+	font-size:0;
+	background: url(../img/btn/toggl.png) right top no-repeat;
+	overflow:hidden;
+	cursor:pointer;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+.Droplist .trigger:hover, .Droplist.droplistFocus .trigger, .Droplist.tadKeyFocus .trigger {
+	background-position: 0 0;
+	}
+.Droplist .trigger:active,.Droplist .trigger.active {
+	background-position: 0 0;
+	}
+.DroplistOption {
+	position:absolute;
+	z-index:999999;
+	background:#fff;
+	border:1px solid #d0d0d0;
+	color:#333;
+	margin:0;
+	margin-top:-1px;
+	padding:0 1px;
+	overflow:hidden;
+	}
+.DroplistOption label {
+	line-height:24px;
+	font-size:14px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	display:block;
+	}
+.DroplistOption input {
+	vertical-align: middle;
+	margin:-1px 4px 0 4px;
+	}
+.DroplistOption li {
+	cursor:pointer;
+	height:24px;
+	width:auto;
+	font-size:12px;
+	line-height:24px;
+	padding:0 6px;
+	white-space:nowrap;
+	overflow:hidden;
+	}
+.DroplistOption .selected, .DroplistOption li:hover {
+	background: #459eff;
+	color:#fff;
+	}
+.Droplist .right {
+	/*background: url(../img/droplist/textImg.png) no-repeat 100% -72px;*/
+	padding-right: 6px;
+	}
+.Droplist .center {
+	/*background: url(../img/droplist/textImg.png) repeat-x 0 -36px;*/
+	height: 22px;
+	}
+.Droplist .center input[type='text'], .Droplist .center input[type='password'] {
+	border:none;
+	color:#333;
+	height:22px;
+	padding:0;
+	line-height:22px;
+	font-size:12px;
+	background:transparent;
+	cursor:pointer;
+	}
+.DroplistOption .customcheckbox {
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	}
+.DroplistOption li span {
+	width:15px;
+	height:15px;
+	margin-top:5px;
+	margin-right:7px;
+	background:transparent url(../img/btn/cheak.png) 0 -28px no-repeat;
+	float:left;
+	}
+.DroplistOption li.checked span {
+	background-position:0 0;
+	}
+.DroplistOption li span input {
+	width:15px;
+	height:15px;
+	overflow:hidden;
+	opacity:0;
+	filter:alpha(opacity=0);
+	}
+.DroplistOption li.disabled span {
+	background-position:left bottom;
+	}
+.Droplist .center input[type='text'][disabled='disabled'], .Droplist .center input[type='password'][disabled='disabled'] {
+	color:#D5D4D4;
+	}

@@ -1,0 +1,1036 @@
+@charset "utf-8";
+
+/* common */
+html,body {     
+  height: 100%;
+}
+
+body {
+  background: #e8e8e8;
+  min-width: 1200px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 12px;
+  font-family: 'Microsoft yahei',Arial,"宋体",Helvetica,sans-serif;
+  line-height: 16px;
+  cursor: default;
+  color: #333;
+  -webkit-text-size-adjust: none;
+}
+
+ul,li,dl,dd,dt,form,p,h1,h2,h3,h4,h5,h6,input,select,pre {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  outline: none;
+  font-size: 12px;
+}
+
+a {
+  outline: none;
+  blr: expression(this.onFocus=this.blur());
+  cursor: pointer
+}
+
+input {
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+.clearfix {
+  zoom: 1
+}
+
+.clearfix:after,.clearfix:before {
+  display: block;
+  clear: both;
+  height: 0;
+  font-size: 0;
+  overflow: hidden;
+  content: ""
+}
+
+.clear {
+  clear: both;
+  height: 0px;
+  line-height: 0px;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+}
+
+*:focus {
+  outline: none;
+  blr: expression(this.onFocus=this.blur());
+}
+
+.layout {
+  width: 1270px;
+  margin: 0 auto;
+}
+
+.b0 {
+  border: none !important;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.flr {
+  float: right;
+  vertical-align: top;
+}
+
+.handleMain,.handleMain .handleTop {
+  filter: IE8->alpha(opacity=100) !important;
+  /* 解决IE8及以下浏览器半透明图片滤镜效果的的BUG */
+}
+
+.positionRelative {
+  position: relative;
+  z-index: 1;
+}
+
+.bigLayout .positionRelative {
+  margin-top: 31px;
+}
+
+.scrollBody {
+  position: relative;
+}
+
+.clearFloat {
+  overflow: hidden;
+  clear: both;
+  *height: 0;
+  *zoom: 1;
+}
+
+/* header */
+#header {
+    position: absolute;
+    display: block;
+    width: 1270px;
+    left: 50%;
+    margin-left: -635px;
+}
+
+.headerBg {
+  height: 50px;
+  background: #339dd9;
+  line-height: 50px;
+}
+
+#header .trigger {
+  background: url(../img/image0010.png) center center no-repeat;
+  width: 16px;
+  float: left;
+  height: 26px;
+  padding: 22px 16px 0;
+  position: relative
+}
+
+#header .trigger.hover {
+  background: #62c2eb url(../img/image0010.png) center center no-repeat;
+}
+
+#header .trigger #menu1_cont {
+  position: absolute;
+  display: none;
+  z-index: 999999;
+  top: 46px;
+}
+
+#header .warp {
+  border-left: #66afe0 solid 1px;
+  height: 48px;
+}
+
+#header .logo {
+  line-height: 50px;
+  color: #fff;
+  font-size: 18px;
+  float: left;
+  padding: 0 10px;
+}
+
+#header .logo i {
+  float: left;
+  font-size: 32px;
+}
+
+#header .logo p {
+  float: left;
+  display: inline-block;
+  padding-left: 4px;
+}
+
+#header .menu ul,#header .menu {
+  float: right;
+}
+
+#header .trigger {
+  height: 28px;
+  background: url(../img/appNew/icon-head01_03.png) center center no-repeat
+}
+
+#header .trigger.hover,#header .trigger:hover {
+  background: url(../img/appNew/icon-head02_03.png) center center no-repeat;
+}
+
+#header .trigger:active {
+  background: url(../img/appNew/icon-head03_03.png) center center no-repeat;
+}
+
+#header .warp {
+  border: 0;
+  height: 50px;
+}
+
+#header .logo img {
+  position: relative;
+  top: -2px;
+  width: 32px;
+  height: 32px;
+}
+
+/* header menu */
+#header .menu div.follow {
+  float: left;
+}
+
+#header .menu ul {
+  float: left;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+  background: url(../img/appNew/bg_space_1231.png) no-repeat right top;
+  zoom: 1;
+ /* for IE6 IE7 */
+}
+
+#header .menu ul.headNav,#header .menu ul.signin {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  line-height: 20px;
+}
+
+#header .menu ul.headNav li,#header .menu ul.signin li {
+  height: 50px;
+  margin: 0;
+  padding: 0 7px;
+  text-align: center;
+  float: left;
+  overflow: hidden;
+  border: none;
+  cursor: pointer;
+}
+
+#header .menu ul.headNav li a,#header .menu ul.signin a {
+  display: block;
+  height: 50px;
+}
+
+#header .menu ul.headNav li i,#header .menu ul.signin i {
+  font-size: 18px;
+  display: block;
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 14px 2px auto 0;
+}
+
+#header .menu ul.headNav h3,#header .menu ul.signin h3 {
+  display: block;
+  float: left;
+  margin-top: 15px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#header .menu ul.signin li {
+  padding: 0 4px 0 0;
+}
+
+#header .menu ul.signin li i {
+  font-size: 18px;
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+#header .menu ul li {
+  width: auto;
+  margin: 0;
+  padding: 0;
+  color: #8dc8ea;
+}
+
+#header .menu ul li a {
+  cursor: pointer;
+  color: #FFF;
+}
+
+#header .menu ul li a:hover {
+  color: #e2ffa6;
+}
+
+#header .menu ul li.disabled a {
+  cursor: default;
+  color: #8dc8ea;
+}
+
+#header .menu ul li a.disabled {
+  cursor: default;
+  color: #8dc8ea;
+}
+
+#header .menu ul li a.checkOut span.icon {
+  background: url(../img/appNew/icon-sel_03.png) center center no-repeat
+}
+
+#header .menu ul li a.checkOut.disabled span.icon {
+  display: none;
+  overflow: hidden
+}
+
+#header .menu ul li a.checkOut.disabled:hover {
+  background: none
+}
+
+#header .menu div.follow:after,#header .menu ul:after {
+  content: " ";
+  display: block;
+  clear: both;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+/* content */
+#content .flagContainer {
+  float: left;
+}
+
+#content .flagContainer .leftSc {
+  top: 50%;
+  position: absolute;
+  left: 50%;
+  margin-left: -2px;
+  margin-top: -24px;
+}
+
+#content {
+  position: absolute;
+  display: block;
+  width: 1270px;
+  left: 50%;
+  margin-left: -635px;
+  top: 50px;
+  bottom: 0px;
+  background-color: #e8e8e8;
+}
+
+#content .nav {
+  position: absolute;
+  width: 245px;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  background: #F6F6F6;
+}
+
+#content .flagContainer {
+  position: absolute;
+  width: 20px;
+  top: 0px;
+  left: 245px;
+  bottom: 0px;
+}
+
+#content .section {
+  position: absolute;
+  left: 265px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #F6F6F6;
+}
+
+/* content layout */
+#content.layout1 .nav {
+  display: none;
+}
+
+#content.layout1 .userInfoCont {
+  display: none;
+}
+
+#content.layout2 .nav {
+  display: none;
+}
+
+#content.layout2 .flagContainer,#content.layout1 .flagContainer {
+  left: 0px;
+}
+
+#content.layout2 .section,#content.layout1 .section {
+  left: 0px;
+}
+
+/* 左侧列表 */
+#content .nav .clientList {
+  position: absolute;
+  top: 82px;
+  bottom: 0px;
+  width: 100%;
+}
+
+#content .nav .waiting-num {
+  background: #fff;
+}
+
+
+/* icons */
+@font-face {font-family: "header_iconfont";
+  src: url('styles/header_iconfont/iconfont.eot'); /* IE9*/
+  src: url('styles/header_iconfont/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('styles/header_iconfont/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('styles/header_iconfont/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('styles/header_iconfont/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.ic {
+  font-family:"header_iconfont" !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ic-cmcc:before { content: "\e600"; }
+.ic-exit:before { content: "\e601"; }
+.ic-search:before { content: "\e602"; }
+.ic-user:before { content: "\e603"; }
+.ic-mima:before { content: "\e604"; }
+.ic-mail:before { content: "\e605"; }
+.ic-qingqiu:before { content: "\e606"; }
+.ic-monitor:before { content: "\e607"; }
+.ic-favorite:before { content: "\e608"; }
+.ic-dot:before { content: "\e609"; }
+.ic-arrowdown:before { content: "\e60a"; }
+.ic-ip:before { content: "\e60b"; }
+.ic-logoff:before { content: "\e60c"; }
+.ic-chatou:before { content: "\e60d"; }
+.ic-tonghua1:before { content: "\e60e"; }
+.ic-tonghua2:before { content: "\e60f"; }
+.ic-jiexu:before { content: "\e610"; }
+.ic-kehu:before { content: "\e611"; }
+.ic-time:before { content: "\e612"; }
+.ic-userstatus:before { content: "\e613"; }
+.ic-hot:before { content: "\e614"; }
+.ic-shengri:before { content: "\e615"; }
+.ic-laba:before { content: "\e616"; }
+.ic-quyu:before { content: "\e617"; }
+.ic-detail:before { content: "\e618"; }
+.ic-stop:before { content: "\e619"; }
+.ic-location:before { content: "\e61a"; }
+.ic-huafei:before { content: "\e61b"; }
+.ic-yewu:before { content: "\e61c"; }
+.ic-jifen:before { content: "\e61d"; }
+.ic-cuxiao:before { content: "\e61e"; }
+.ic-mutecancel:before { content: "\e61f"; }
+.ic-mute:before { content: "\e620"; }
+.ic-shoulihaoma:before { content: "\e621"; }
+.ic-zhujiaohaoma:before { content: "\e622"; }
+.ic-logongcs:before { content: "\e623"; }
+.ic-cmcc-out:before { content: "\e624"; }
+.ic-cmcc-in:before { content: "\e625"; }
+.ic-download:before { content: "\e626"; }
+.ic-refresh:before { content: "\e627"; }
+
+/* 滚动公告 */
+.flowTools {
+  position: relative;
+  float: left;
+  width: 132px;
+  height: 30px;
+  background: url("../img/appNew/icon-search-block_03.png") center center no-repeat;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.flowTools a {
+  font-size: 12px;
+  color: #c6e4f4;
+  height: 30px;
+}
+
+.flowTools a.tools {
+  margin-left: 32px;
+}
+
+div.entertainingDiversions {
+  width: 90px;
+  *line-height: 22px;
+}
+
+.iconTools {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 10px;
+  top: 7px;
+}
+
+/* gosBox */
+.cosBox {
+  /*display:inline-block;* display:inline; *zoom:1;*/
+  padding-left: 7px;
+  overflow: hidden;
+}
+
+.cosBox .trangle {
+  float: left;
+  margin-left: -7px;
+  margin-top: 12px;
+  width: 8px;
+  height: 14px;
+  background: url(../img/common/c_tip.gif) no-repeat left top;
+}
+
+.cosBox .cosBoxTop {
+  background: url(../img/common/c_t_l.gif) no-repeat left 1px;
+  padding-left: 5px;
+  line-height: 0;
+  font-size: 0;
+}
+
+.cosBox .cosBoxTop .cosBoxTopRight {
+  background: url(../img/common/c_t_r.gif) no-repeat right 1px;
+  padding-right: 5px;
+}
+
+.cosBox .cosBoxTop .cosBoxTopCenter {
+  padding-top: 5px;
+  *height: 0px;
+  _height: auto;
+  overflow: hidden;
+  width: auto;
+  line-height: 0;
+  font-size: 0;
+}
+
+.cosBox .cosBoxMid {
+  background: url(../img/common/c_m_l.gif) repeat-y;
+  padding-left: 5px;
+}
+
+.cosBox .cosBoxMid .cosBoxMidRight {
+  background: url(../img/common/c_m_r.gif) repeat-y right top;
+  padding-right: 5px;
+}
+
+.cosBox .cosBoxMid .cosBoxMidCenter {
+  background: url(../img/common/c_m_c.gif) repeat;
+  padding: 5px;
+  font-size: 14px;
+  min-height: 14px;
+  line-height: normal;
+}
+
+.cosBox .cosBoxButtom {
+  background: url(../img/common/c_b_l.gif) no-repeat left top;
+  padding-left: 5px;
+  line-height: 0;
+  font-size: 0;
+}
+
+.cosBox .cosBoxButtom .cosBoxButtomRight {
+  background: url(../img/common/c_b_r.gif) no-repeat right top;
+  padding-right: 5px;
+}
+
+.cosBox .cosBoxButtom .cosBoxButtomCenter {
+  padding-top: 5px;
+  overflow: hidden;
+  width: auto;
+  line-height: 0;
+  font-size: 0;
+  *height: 0px;
+  _height: auto;
+}
+
+/* gosBox */
+.gosBox {
+  display: inline-block;
+  * display: inline;
+  *zoom: 1;
+  overflow: hidden;
+}
+
+.gosBox .gosBoxTop {
+  background: url(../img/common/g_t_l.gif) no-repeat left top;
+  padding-left: 5px;
+  line-height: 0;
+  font-size: 0;
+  margin-right: 8px;
+}
+
+.gosBox .gosBoxTop .gosBoxTopRight {
+  background: url(../img/common/g_t_r.gif) no-repeat right top;
+  padding-right: 5px;
+}
+
+.gosBox .gosBoxTop .gosBoxTopCenter {
+  padding-top: 5px;
+  *height: 0px;
+  _height: auto;
+  overflow: hidden;
+  width: auto;
+  line-height: 0;
+  font-size: 0;
+}
+
+.gosBox .gosBoxMid {
+  background: url(../img/common/g_m_l.gif) repeat-y;
+  padding-left: 5px;
+}
+
+.gosBox .gosBoxMid .gosBoxMidRight {
+  background: url(../img/common/g_m_r.gif) repeat-y right top;
+  padding-right: 13px;
+}
+
+.gosBox .gosBoxMid .gosBoxMidCenter {
+  background: url(../img/common/g_m_c.gif) repeat;
+  padding: 5px;
+  font-size: 14px;
+  min-height: 14px;
+  line-height: normal;
+}
+
+.gosBox .gosBoxButtom {
+  background: url(../img/common/g_b_l.gif) no-repeat left top;
+  padding-left: 5px;
+  line-height: 0;
+  font-size: 0;
+  margin-right: 8px
+}
+
+.gosBox .gosBoxButtom .gosBoxButtomRight {
+  background: url(../img/common/g_b_r.gif) no-repeat right top;
+  padding-right: 5px;
+}
+
+.gosBox .gosBoxButtom .gosBoxButtomCenter {
+  padding-top: 5px;
+  overflow: hidden;
+  width: auto;
+  line-height: 0;
+  font-size: 0;
+  *height: 0px;
+  _height: auto;
+}
+
+/* chatBox */
+.chatBox {
+  height: auto;
+  margin: 0 20px 20px;
+  padding-left: 3px;
+  overflow: hidden;
+}
+
+.chatBox .chatBoxTop {
+  background: url(../img/common/chat_t_l.gif) no-repeat left top;
+  padding-left: 5px;
+}
+
+.chatBox .chatBoxTop .chatBoxTopRight {
+  background: url(../img/common/chat_t_r.png) no-repeat right top;
+  padding-right: 8px;
+}
+
+.chatBox .chatBoxTop .chatBoxTopCenter {
+  padding-top: 5px;
+  overflow: hidden;
+  width: auto;
+  line-height: 0;
+  font-size: 0;
+  *height: 0px;
+  _height: auto;
+}
+
+.chatBox .chatBoxMid {
+  background: url(../img/common/chat_m_l.gif) repeat-y;
+  height: 174px;
+  padding-left: 5px;
+}
+
+.chatBox .chatBoxMid .chatBoxMidRight {
+  height: 100%;
+  background: url(../img/common/chat_m_r.gif) repeat-y right top;
+  padding-right: 8px;
+}
+
+.chatBox .chatBoxMid .chatBoxMidCenter {
+  height: 100%;
+  background: url(../img/common/chat_m_c.gif) repeat;
+}
+
+.chatBox .chatBoxButtom {
+  background: url(../img/common/chat_b_l.gif) no-repeat left top;
+  padding-left: 5px;
+}
+
+.chatBox .chatBoxButtom .chatBoxButtomRight {
+  background: url(../img/common/chat_b_r.png) no-repeat right top;
+  padding-right: 8px;
+}
+
+.chatBox .chatBoxButtom .chatBoxButtomCenter {
+  height: 8px;
+  display: block;
+}
+
+.chatBox .chatTool {
+  /*position:relative;*/
+  margin: -3px -2px 0 -2px;
+}
+
+.chatBox .chatTitle {
+  background: url(../img/common/chat_bg.png);
+  /*position:absolute;left:-3px;top:-3px;right:-2px;*/
+  height: 40px;
+  /*margin-top:-3px;margin-left:-3px;margin-right:-2px;*/
+}
+
+.btnsCon {
+  text-align: center;
+}
+
+/* 绿色按钮 */
+.greenBtn, .greenBtn span, .greenBtn b, .greenBtn i {
+  height: 30px;
+  display: inline-block;
+  font-size: 0;
+  background: url(../img/btn/greenBtn.png) no-repeat;
+  vertical-align: top;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.greenBtn {
+  margin: 0 5px;
+  background-position: 0 0;
+  vertical-align: middle;
+}
+
+.greenBtn span {
+  background-position: right -80px;
+}
+
+.greenBtn span b {
+  color: #fff;
+  margin: 0 3px;
+  padding: 0 17px;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: normal;
+  background-position: 0 -40px;
+  background-repeat: repeat-x;
+}
+
+.greenBtn:hover {
+  background-position: 0 -120px;
+}
+
+.greenBtn:hover span {
+  background-position: right -200px;
+}
+
+.greenBtn:hover span b {
+  background-position: 0 -160px;
+}
+
+.greenBtn:active, .greenBtn.active {
+  background-position: 0 -240px;
+}
+
+.greenBtn:active span, .greenBtn.active span {
+  background-position: right -320px;
+}
+
+.greenBtn:active span b, .greenBtn.active span b {
+  background-position: 0 -280px;
+}
+
+.greenBtn.disabled {
+  background-position: 0 -360px;
+}
+
+.greenBtn.disabled span {
+  background-position: right -440px;
+}
+
+.greenBtn.disabled span b {
+  background-position: 0 -400px;
+}
+
+.greenBtn .plus {
+  height: 30px;
+  width: 18px;
+  background: url(../img/btn/plus.png) left center no-repeat;
+  vertical-align: top;
+  *vertical-align: middle;
+}
+
+/* 灰色按钮 */
+.grayBtn, .grayBtn span, .grayBtn b, .grayBtn i {
+  height: 30px;
+  display: inline-block;
+  font-size: 0;
+  background: url(../img/btn/grayBtn.png) no-repeat;
+  vertical-align: top;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.grayBtn {
+  margin: 0 5px;
+  background-position: 0 0;
+  vertical-align: middle;
+}
+
+.grayBtn span {
+  background-position: right -80px;
+}
+
+.grayBtn span b {
+  color: #333;
+  margin: 0 3px;
+  padding: 0 17px;
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: normal;
+  background-position: 0 -40px;
+  background-repeat: repeat-x;
+}
+
+.grayBtn:hover {
+  background-position: 0 -120px;
+}
+
+.grayBtn:hover span {
+  background-position: right -200px;
+}
+
+.grayBtn:hover span b {
+  background-position: 0 -160px;
+}
+
+.grayBtn:active, .grayBtn.active {
+  background-position: 0 -240px;
+}
+
+.grayBtn:active span, .grayBtn.active span {
+  background-position: right -320px;
+}
+
+.grayBtn:active span b, .grayBtn.active span b {
+  background-position: 0 -280px;
+}
+
+.grayBtn.disabled {
+  background-position: 0 -360px;
+}
+
+.grayBtn.disabled span {
+  background-position: right -440px;
+}
+
+.grayBtn.disabled span b {
+  background-position: 0 -400px;
+}
+
+/* 小关闭按钮 */
+.samllCloseBtn {
+  height: 28px;
+  width: 28px;
+  background: transparent url(../img/icon/close.png) center center no-repeat;
+  overflow: hidden;
+  cursor: pointer;
+  float: right;
+}
+
+/* 消息列表 */
+.nav .msgInfo {
+  background: url(../img/image0008.png) left center repeat-y #fff;
+  padding: 15px 10px 5px 15px;
+  zoom: 1
+}
+
+.nav .msgInfo.line2 {
+  background-image: url(../img/image0009.png)
+}
+
+.nav .msgInfo.state1 {
+  background-color: #fffacc;
+}
+
+.nav .msgInfo:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0
+}
+
+.nav .msgInfo.select,.nav .msgInfo:hover {
+  background-color: #62c2eb;
+  color: #fff
+}
+
+.nav .msgInfo .msgType {
+  width: 30px;
+  float: left;
+  height: 50px;
+  margin: 0 5px;
+}
+
+.nav .panel {
+  width: 245px;
+}
+
+.nav .searchPanel {
+  width: 245px;
+}
+
+/* 客户信息 */
+#content .section .userInfoCont {
+  height: 60px;
+  padding: 5px 0px;
+}
+
+#content .section #chatWarpContainer {
+  position: absolute;
+  bottom: 0px;
+  top: 68px;
+  width: 100%;
+}
+
+#content .section #chatWarpContainer .chatWarp {
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+#content .section #chatWarpContainer .chatWarp .tabsCont, 
+#content .section #chatWarpContainer .chatWarp .tabsCont .tabs,
+#content .section #chatWarpContainer .chatWarp .tabsCont .tabs .uiTab,
+#content .section #chatWarpContainer .chatWarp .tabsCont .tabs .uiTab .uiTabBody .uiTabItemBody {
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+#content .section #chatWarpContainer .chatWarp .tabsCont .tabs .uiTab .uiTabHeadOutWrap {
+}
+
+#content .section #chatWarpContainer .chatWarp .tabsCont .tabs .uiTab .uiTabBody {
+  position: absolute;
+  bottom: 0px;
+  top: 31px;
+  width: 100%;
+  height: auto;
+}
+
+#content .section #chatWarpContainer .chatWarp .tab {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+#content .uiTabIframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* 右下角弹框提示 20160223 by zhanglizhao */
+.pop-alert-warp {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  z-index: 9999999;
+}
+
+.pop-alert {
+  position: absolute;
+  z-index: 9999999;
+  left: 405px;
+  bottom: 0;
+  width: 230px;
+  overflow: hidden;
+}
+
+.pop-alert-warp .pop-alert-list {
+  height: 157px;
+  overflow: hidden
+}
+
+.pop-alert-warp .pop-alert-box {
+  position: relative;
+  padding: 0 10px 10px 0;
+  top: 160px;
+}
+
+.pop-alert-warp .pop-alert-content {
+  border: 1px solid #339dd9;
+}
+
+.pop-alert-warp .pop-alert-title {
+  padding-left: 10px;
+  line-height: 25px;
+  color: #fff;
+  background: #339dd9;
+}
+
+.pop-alert-warp .list-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.pop-alert-warp .pop-alert-text {
+  position: relative;
+  background: #fff;
+  height: 120px;
+  font-size: 14px;
+}
+
+.pop-alert-warp .pop-alert-text p {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  top: 20px;
+}
+
+.pop-alert-warp .popBotL {
+  position: absolute;
+  bottom: 3px;
+  left: 0;
+  right: 3px;
+}
+
+.pop-alert-warp .popContRight {
+  position: absolute;
+  top: 15px;
+  bottom: 10px;
+  right: -2px;
+  width: 12px;
+  padding: 0;
+  background-position: 0 0;
+}

@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="renderer" content="webkit"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+	<link rel="stylesheet" type="text/css" href="src/assets/css/login.css"/>
+	<!-- select美化 -->
+	<link rel="stylesheet" type="text/css" href="node_modules/compts_npm/lib/selectpick/css/selectpick.css"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	<title>登录</title>
+</head>
+<body>
+	<div class="login_top">
+		<span></span>
+	</div>
+
+	<div class="login_wrap">
+		<div class="logo">
+			<img src="src/assets/img/appNew/logo_2x.png" alt="cmcc">
+			<span>夜间专席</span>
+		</div>
+
+		<!-- 登录 -->
+		<!-- 有验证码 has-chkcode; 无验证码 no-chkcode; -->
+		<div class="content">
+			<div class="login_title">
+				<h3>用户登录</h3>
+				<p id="loginDesc">请输入正确的密码</p>
+			</div>
+			<div class="login_input">
+				<input id="userName" type="text" name="userName" placeholder="用户名" autocomplete="off">
+			</div>
+			<div class="login_input">
+				<input id="password" type="password" name="password" placeholder="密码" autocomplete="off">
+			</div>
+			<!-- 验证码：用户名或密码多次输入错误，才显示验证码 -->
+			<div class="login_input checkcode">
+				<input id="code" type="text" name="code" placeholder="验证码" autocomplete="off">
+				<span class="codeimg">
+					<img id="codeimg" src="src/assets/img/appNew/validate.jpg">
+				</span>
+			</div>
+			<div class="login_botton">
+				<a id="J_login" class="btn_submit" href="###" name="" onclick="statusChoice.style.display='block'; ">
+					登录
+				</a>
+				<a id="login_reset" class="btn_refresh" href="" name="">
+					<i class="ic ic-refresh"></i>
+					<span>重置</span>
+				</a>
+			</div>
+		</div>
+
+		<!-- 选择登录状态 -->
+		<div class="content" id="statusChoice" style="display:none">
+			<div class="login_title">
+				<h3>请选择</h3>
+			</div>
+			<div class="login_input select01">
+				<select id="select01">
+					<option selected="selected" value="1">登入系统</option>
+					<option value="2">互联网客服</option>
+				</select>
+			</div>
+			<div class="login_input select02">
+				<select id="select02">
+					<option selected="selected" value="1">郑州多媒体CTI平台</option>
+					<option value="2">10086呼叫中心</option>
+				</select>
+			</div>
+			<div class="login_input select03">
+				<select id="select03">
+					<option selected="selected" value="1">VDN2</option>
+					<option value="2">这里可以放15个汉字</option>
+				</select>
+			</div>
+			<div class="login_input checkcode select04">
+				<select id="select04">
+					<option selected="selected" value="1">空闲态</option>
+					<option value="2">示忙</option>
+				</select>
+			</div>
+			<div class="login_input checkbox signin">
+				<label>
+					<input id="lo_mr5" type="checkbox" checked="checked" />
+					签入呼叫中心
+				</label>
+			</div>
+			<div class="login_botton">
+				<a id="J_login" class="btn_submit" href="index.html" name="">
+					登录
+				</a>
+				<a id="J_jx_reset" class="btn_cancel" href="" name="">
+					取消
+				</a>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="login_bottom">
+		<a id="download" href="Setup.exe">
+			<i class="ic ic-download"></i>
+			<span>控件下载</span>
+		</a>
+		<p>
+			Copyright@2015 中移在线服务有限公司 版权所有
+		</p>
+	</div>
+	
+	<!-- select美化 -->
+	<script type="text/javascript" src="node_modules/compts_npm/lib/jquery/jquery.js"></script>
+	<script type="text/javascript" src="node_modules/compts_npm/lib/selectpick/js/selectpick.js"></script>
+	<script type="text/javascript">
+		$(function() {
+			$("#select01").selectpick({
+				container: '.select01',
+				width: '264px',
+				onSelect: function(value,text){
+					alert("这是回调函数，选中的值："+value+" \n选中的下拉框文本："+text);
+				}
+			});
+			$("#select02").selectpick({
+				container: '.select02',
+				width: '264px',
+				onSelect: function(value,text){
+					alert("这是回调函数，选中的值："+value+" \n选中的下拉框文本："+text);
+				}
+			});
+			$("#select03").selectpick({
+				container: '.select03',
+				width: '264px',
+				onSelect: function(value,text){
+					alert("这是回调函数，选中的值："+value+" \n选中的下拉框文本："+text);
+				}
+			});
+			$("#select04").selectpick({
+				container: '.select04',
+				width: '104px',
+				onSelect: function(value,text){
+					alert("这是回调函数，选中的值："+value+" \n选中的下拉框文本："+text);
+				}
+			});
+		});
+	</script>
+	
+	<!-- IE8 placeholder兼容 -->
+	<script type="text/javascript" src="node_modules/compts_npm/lib/placeholder/jquery.placeholder.min.js"></script>
+	<script type="text/javascript">
+		$(function(){ $('input, textarea').placeholder(); });
+	</script>
+
+</body>
+</html>

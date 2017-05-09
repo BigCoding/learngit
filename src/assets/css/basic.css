@@ -1,0 +1,2783 @@
+@charset "utf-8";
+
+/*面板样式 begin*/
+.panel {
+}
+
+.panel .topW {
+  background: url(../img/panel/1.png) no-repeat left top;
+  padding-left: 13px;
+}
+
+.panel .topW .right {
+  background: url(../img/panel/3.png) no-repeat right top;
+  padding-right: 22px;
+}
+
+.panel .topW .right .center {
+  background: url(../img/panel/2.png) repeat-x center top;
+  line-height: 2px;
+  height: 2px;
+  overflow: hidden;
+}
+
+.panel .centerW {
+  background: url(../img/panel/7.png) repeat-y left top;
+}
+
+.panel .centerW .right {
+  background: url(../img/panel/8.png) repeat-y right top;
+}
+
+.panel .centerW .right .center {
+  background: #fff;
+  margin: 0 5px 0 3px
+}
+
+.panel .bottomW {
+  background: url(../img/panel/4.png) no-repeat left top;
+  padding-left: 13px;
+  line-height: 6px;
+  height: 6px;
+}
+
+.panel .bottomW .right {
+  background: url(../img/panel/6.png) no-repeat right top;
+  padding-right: 21px;
+}
+
+.panel .bottomW .right .center {
+  background: url(../img/panel/5.png) repeat-x center top;
+  height: 6px;
+  overflow: hidden
+}
+
+.panel.noneBg .centerW, .panel.noneBg .centerW .right, .panel.noneBg .centerW .right .center, .panel.noneBg .topW, .panel.noneBg .topW .right, .panel.noneBg .topW .right .center, .panel.noneBg .bottomW, .panel.noneBg .bottomW .right, .panel.noneBg .bottomW .right .center {
+  background-image: none;
+}
+/*面板样式 end*/
+.menu {
+  font-size: 0px
+}
+
+.menu li {
+  font-size: 12px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.bubble {
+  color: #fff;
+  background: url(../img/icons.png) no-repeat left top;
+  height: 12px;
+  text-align: center;
+  line-height: 12px;
+  width: 14px;
+  padding: 0 2px;
+  overflow: hidden;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.bubble.strong {
+  background-position: -30px top;
+}
+
+/*内容区域 begin*/
+/*选项卡*/
+#content .menu li a {
+  font-size: 14px;
+  color: #333
+}
+
+#content .tab {
+  padding: 12px 15px 0;
+}
+
+#content .tab li span {
+  height: 34px;
+  line-height: 24px;
+  vertical-align: middle;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+#content .tab li span.left,#content .tab li span.right {
+  width: 22px;
+}
+
+#content .tab li.sel span {
+  background: url(../img/tab.png) center -36px no-repeat;
+  color: #fff;
+}
+
+#content .tab li span.left {
+  background-position: left top;
+}
+
+#content .tab li span.right {
+  background-position: right bottom;
+}
+
+.msgType .icon {
+  width: 30px;
+  height: 24px;
+  margin: 5px 0;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.msgType .email {
+  background: url(../img/icons.png) -111px -284px no-repeat;
+}
+
+.msgType .sms {
+  background: url(../img/icons.png) -1px -287px no-repeat;
+}
+
+.msgType .weixin {
+  background: url(../img/icons.png) -58px -284px no-repeat;
+}
+
+.msgType .weibo {
+  background: url(../img/icons.png) -278px -284px no-repeat;
+}
+
+.msgType .qq {
+  background: url(../img/icons.png) -242px -287px no-repeat;
+}
+
+.msgType .chat {
+  background: url(../img/icons.png) -194px -284px no-repeat;
+}
+
+.msgType .feixin {
+  background: url(../img/serviceWay.png) -5px -66px no-repeat;
+  width: 33px;
+  height: 33px;
+  margin: 0;
+}
+
+.msgType .fade {
+  background: none;
+}
+
+.nav .msgInfo .message {
+  overflow: hidden;
+  zoom: 1;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.nav .msgInfo .message:after {
+  display: block;
+  clear: both;
+  content: "";
+  visibility: hidden;
+  height: 0
+}
+
+.nav .msgInfo .message h1,.nav .msgInfo .message h1 strong {
+  color: #666;
+  padding-bottom: 5px;
+  font-weight: normal
+}
+
+.nav .msgInfo .message h1 span {
+  float: right;
+  margin-right: 10px;
+}
+
+.nav .msgInfo.strong .message p {
+  color: #fc5508
+}
+
+.nav .msgInfo:hover .msgType .email,.select .msgType .email {
+  background: url(../img/icons.png) -111px -351px no-repeat;
+}
+
+.nav .msgInfo:hover .msgType .sms,.select .msgType .sms {
+  background: url(../img/icons.png) -1px -354px no-repeat;
+}
+
+.nav .msgInfo:hover  .msgType .weixin,.select .msgType .weixin {
+  background: url(../img/icons.png) -58px -351px no-repeat;
+}
+
+.nav .msgInfo:hover  .msgType .weibo,.select .msgType .weibo {
+  background: url(../img/icons.png) -278px -351px no-repeat;
+}
+
+.nav .msgInfo:hover  .msgType .qq,.select .msgType .qq {
+  background: url(../img/icons.png) -242px -354px no-repeat;
+}
+
+.nav .msgInfo:hover  .msgType .chat,.select .msgType .chat {
+  background: url(../img/icons.png) -194px -351px no-repeat;
+}
+
+.nav .msgInfo:hover  .msgType .feixin,.select .msgType .feixin {
+  background: url(../img/serviceWayHover.png) -5px -66px no-repeat;
+}
+
+.nav .msgInfo:hover  .msgType .fade,.select .msgType .fade {
+  background: none;
+}
+
+.nav .msgInfo:hover  .message h1,.nav .msgInfo:hover  .message h1 strong,.nav .msgInfo.select .message h1,.nav .msgInfo.select .message h1 strong {
+  color: #fff;
+}
+/*内容区域 end*/
+
+#content .section {
+  overflow: hidden;
+  _width: 1026px;
+  _float: left;
+  /*ie6兼容处理*/
+}
+
+/*左侧收展*/
+.leftSc {
+  background: url(../img/icons.png) no-repeat -452px top;
+  height: 16px;
+  width: 18px;
+  cursor: pointer;
+}
+
+.leftSc:hover {
+  background-position: -452px -21px;
+}
+
+.leftSc.sc2 {
+  background-position: -484px -1px;
+}
+
+.leftSc.sc2:hover {
+  background-position: -484px -21px;
+}
+
+/* weiru0315 添加修改的样式 */
+
+/* 号码编码流水号 */
+.textSub {
+  display: inline-block;
+  margin-top: 14px;
+  margin-left: 16px;
+}
+
+.textSub > div {
+  display: block;
+  float: left;
+  height: 20px;
+  margin-right: 4px;
+  background: url("../img/appNew/bg_samilgray.png") no-repeat left top;
+}
+
+.textSub > div span {
+  display: block;
+  float: left;
+  height: 20px;
+  line-height: 20px;
+  background: url("../img/appNew/bg_samilgray.png") no-repeat right -20px;
+  padding: 0 4px;
+  color: #FFF;
+}
+
+.textSub p {
+  display: inline-block;
+  color: #8b8b8b;
+}
+
+.textAColor {
+  padding-left: 5px;
+}
+
+.tinfostyle:link, .tinfostyle:visited {
+  border: 1px solid #ddd;
+}
+
+.tinfostyle:hover {
+  border: 1px solid #62c2eb;
+}
+
+.ic-arrowdown:hover {
+  color: #62c2eb;
+}
+
+.tinfostyle {
+  width: 140px;
+  padding: 0px 8px;
+  background: #fff;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: 27px;
+  left: 0;
+  z-index: 10000;
+}
+
+.tinfostyle .topT {
+  border-bottom: 1px solid #ddd;
+  padding: 5px 0px;
+}
+
+.tinfostyle div a {
+  color: #666;
+  text-decoration: none;
+}
+
+.tinfostyle div i {
+  color: #888;
+}
+
+.arrowdown {
+  display: block;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #333;
+  text-decoration: none;
+}
+
+.tinfostyle .bottomT {
+  padding: 4px 0px;
+}
+
+.inputpicNum {
+  width: 146px;
+  padding: 0px 5px;
+  height: 24px;
+  border: 1px solid #ddd;
+  background: #FFF;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.userInfoCont .photo {
+  vertical-align: top;
+  height: 33px;
+  width: 54px;
+  background: url(../img/image0005.png) center bottom no-repeat;
+  position: relative;
+  padding-top: 12px;
+  margin-left: 26px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* weiru0315 添加修改的样式*/
+
+.userInfoCont .photoWom {
+  background: url(../img/image0005_2.png) center bottom no-repeat;
+}
+
+.userInfoCont .title {
+  background: url(../img/icons.png) -54px -19px no-repeat;
+  width: 40px;
+  font-size: 12px;
+  height: 14px;
+  padding: 0 7px;
+  text-align: center;
+  color: #99caea;
+  line-height: 14px;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.userInfoCont .bubble {
+  background-position: -54px top;
+  width: 27px;
+  height: 14px;
+  line-height: 14px;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.userInfoCont .info.bol {
+  border-left: 1px dotted #838383;
+  padding-left: 20px;
+}
+
+.userInfoCont .info {
+  padding-right: 20px;
+  line-height: 24px;
+  margin-top: 17px;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.userInfoCont .info .name {
+  font-size: 20px;
+  color: #000;
+  line-height: 20px;
+}
+
+.userInfoCont .info .appellation {
+  font-size: 16px;
+  color: #000;
+  margin: 0 12px 0 10px;
+  line-height: 20px;
+}
+
+.userInfoCont .info .account {
+  font-size: 16px;
+  padding: 0 5px;
+}
+
+.userInfoCont .info .account .icon {
+  padding-left: 5px;
+  width: 12px;
+  height: 8px;
+  vertical-align: middle;
+  background: url(../img/icons.png) -135px -23px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.userInfoCont .info .account:hover .icon,
+.userInfoCont .info .account.hover .icon {
+  background-position: -149px -23px;
+}
+
+.typesTool span {
+  margin-right: 5px;
+  background: url(../img/icons.png) no-repeat;
+  height: 18px;
+  width: 18px;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  cursor: pointer;
+}
+
+.typesTool .qq {
+  background-position: left -100px;
+}
+
+.typesTool .tallImg {
+  background: url(../img/billImg.png) no-repeat;
+  background-position: -14px -43px;
+}
+
+.typesTool .weixin {
+  background: url(../img/billImg.png) no-repeat;
+  background-position: -37px -43px;
+}
+
+.typesTool .weibo {
+  background: url(../img/billImg.png) no-repeat;
+  background-position: -60px -43px;
+}
+
+.typesTool .email {
+  background: url(../img/billImg.png) no-repeat;
+  background-position: -83px -43px;
+}
+
+.typesTool .tallImg.hover,.typesTool .tallImg:hover {
+  background-position: -14px -103px;
+}
+
+.typesTool .weixin.hover,.typesTool .weixin:hover {
+  background-position: -37px -103px;
+}
+
+.typesTool .weibo.hover,.typesTool .weibo:hover {
+  background-position: -60px -103px;
+}
+
+.typesTool .email.hover,.typesTool .email:hover {
+  background-position: -83px -103px;
+}
+
+.typesTool .feixin {
+  background: url(../img/userInfo/feixin.png) no-repeat;
+}
+
+.typesTool .add {
+  background-position: -93px -100px;
+}
+
+.typesTool .add:hover {
+  background-position: -137px -100px;
+}
+
+/*请求操作*/
+#content .section .userInfoCont .actionItems,#content .section .userInfoCont .msgItems,#content .section .userInfoCont .serviceT {
+  padding-right: 20px;
+  height: 30px;
+  ;border-right: 1px dotted #838383;
+  margin: 17px 0 0 8px;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+#content .section .userInfoCont .serviceT {
+  margin-top: 12px;
+}
+
+.actionItems a {
+  width: 24px;
+  height: 24px;
+  background: url(../img/icons01.png) no-repeat;
+  vertical-align: middle;
+  margin-right: 5px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.actionItems .transfer {
+  background-position: -408px -206px
+}
+
+.actionItems .suspend {
+  background-position: -444px -206px;
+}
+
+.actionItems .hangUp {
+  background-position: -478px -206px;
+}
+
+.actionItems .mute {
+  background-position: -512px -204px;
+}
+
+.actionItems .validation {
+  background-position: -546px -206px;
+}
+
+.actionItems .favorites {
+  background-position: -578px -206px;
+}
+
+.actionItems .acceptRequest {
+  background-position: -613px -206px;
+}
+
+.actionItems .close {
+  background-position: -648px -206px;
+}
+
+.actionItems .transfer:hover {
+  background-position: -408px -245px
+}
+
+.actionItems .suspend:hover {
+  background-position: -444px -245px;
+}
+
+.actionItems .hangUp:hover {
+  background-position: -478px -245px;
+}
+
+.actionItems .mute:hover {
+  background-position: -512px -243px;
+}
+
+.actionItems .validation:hover {
+  background-position: -546px -245px;
+}
+
+.actionItems .favorites:hover {
+  background-position: -578px -245px;
+}
+
+.actionItems .acceptRequest:hover {
+  background-position: -613px -245px;
+}
+
+.actionItems .close:hover {
+  background-position: -648px -245px;
+}
+
+.actionItems .transfer:active,.actionItems .transfer.active {
+  background-position: -408px -284px;
+}
+
+.actionItems .suspend:active,.actionItems .suspend.active {
+  background-position: -444px -284px;
+}
+
+.actionItems .hangUp:active,.actionItems .hangUp.active {
+  background-position: -478px -284px;
+}
+
+.actionItems .mute:active,.actionItems .mute.active {
+  background-position: -512px -284px;
+}
+
+.actionItems .validation:active,.actionItems .validation.active {
+  background-position: -546px -284px;
+}
+
+.actionItems .favorites:active,.actionItems .favorites.active {
+  background-position: -578px -284px;
+}
+
+.actionItems .acceptRequest:active,.actionItems .acceptRequest.active {
+  background-position: -613px -284px;
+}
+
+.actionItems .close:active,.actionItems .close.active {
+  background-position: -648px -284px;
+}
+
+/* 信息 */
+#content .section .userInfoCont .msgItems div {
+  margin: 0 10px;
+  vertical-align: middle;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+#content .section .userInfoCont .msgItems div b {
+  display: block;
+  height: 20px;
+  width: 20px;
+  background: url(../img/icons.png) -33px -134px no-repeat;
+}
+
+#content .section .userInfoCont .msgItems div b.sms {
+  background-position: -69px -134px;
+}
+
+#content .section .userInfoCont .msgItems div b.feedback {
+  background-position: left -134px;
+}
+/* 服务时间 */
+#content .section .userInfoCont .serviceT {
+  border: none;
+}
+
+#content .section .userInfoCont .serviceT span {
+  background: url(../img/image0001.png) center center no-repeat;
+  padding: 0 10px;
+  width: 73px;
+  height: 22px;
+  line-height: 20px;
+  color: #a2c35a;
+  font-size: 16px;
+  display: block;
+  margin-top: 4px;
+}
+
+.chatWarp {
+  left: 0
+}
+
+#chatWarpContainer .chatWarp {
+  display: none;
+}
+
+#chatWarpContainer .chatWarp.show {
+  display: block;
+}
+
+#chatWarpContainer .chatWarp .tabsCont .tabs {
+  position: relative;
+}
+
+/* 标签页 top:-31px; */
+.chatWarp .tab {
+  background: url(../img/tabBg.png) center top repeat-x;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  border-bottom: 1px solid transparent;
+  padding: 0 !important;
+  position: relative;
+}
+
+.chatWarp .tab li {
+  background: url(../img/tab2.png) repeat-x center 1px;
+  border: 1px solid #ccc;
+  border-width: 1px 1px 0;
+  padding: 0 16px;
+  padding: 0 16px;
+  vertical-align: top;
+  height: 29px;
+  line-height: 29px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.chatWarp .tab li.sel {
+  background: url(../img/tab2Sel.png) repeat-x center top;
+  position: relative;
+  bottom: -1px;
+  border: none;
+  height: 30px
+}
+
+.peopleNum {
+  font-size: 16px;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  margin-left: 10px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.searchBtn {
+  background: url(../img/icons.png) -142px -41px no-repeat;
+  margin-right: 10px;
+  height: 30px;
+  width: 40px;
+  vertical-align: middle;
+  float: right;
+}
+
+/*查看历史*/
+.seeHistory {
+  padding-left: 30px;
+  width: 70px;
+  height: 46px;
+  line-height: 46px;
+  cursor: pointer;
+  background: url(../img/timer.png) 10px center no-repeat #ccc;
+  margin-right: 2px;
+  float: left;
+}
+
+/* 下一个请求 */
+.tirggerRequest {
+  text-align: right;
+  padding-right: 30px;
+  font-size: 14px;
+  background: url(../img/next.png) 114px center no-repeat #ccc;
+  height: 46px;
+  line-height: 46px;
+  cursor: pointer;
+  overflow: hidden;
+}
+/* 学习态 */
+.nav .panel div.learnText {
+  padding-left: 50px;
+  height: 49px;
+  line-height: 49px;
+  background: url(../img/learnText.png) 10px center no-repeat #fff
+}
+
+/* 记录 */
+.chatWarp .content.bg {
+  background: url("../img/image0006.png") repeat-y scroll right center transparent;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.chatWarp .content .chatRight {
+  margin-left: -1px;
+  float: right;
+  width: 312px;
+  border-left: 1px solid #c9c9c9;
+  _position: relative;
+  _z-index: 1
+}
+
+.chatWarp .content .chatRight h1 {
+  display: block;
+  margin-left: 0;
+  border-bottom: none;
+  padding: 12px 0;
+  font-size: 12px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.chatWarp .content .chatRight h1 .trigger {
+  cursor: pointer;
+  background: url(../img/icons.png) -136px -18px no-repeat;
+  vertical-align: top;
+  height: 16px;
+  width: 22px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.chatWarp .content .chatRight h1.hide {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.chatWarp .content .chatRight h1.hide .trigger {
+  background-position: -185px -21px
+}
+
+.chatWarp .content .chatRight .more {
+  float: right;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.chatWarp .content .chatRight .childres {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.chatWarp .content .chatRight .childres .showMore {
+  display: none
+}
+
+.chatWarp .content .chatRight .childres .childBar {
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+.chatWarp .content .chatRight .childres .childBar .more {
+  margin-top: 20px;
+}
+
+.chatWarp .content .chatRight .childres td {
+  padding: 5px 0 5px 22px;
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.chatWarp .content .chatRight .childres tr.borderTop td {
+  border-top: 1px solid #eeeded;
+}
+
+.chatWarp .content .chatRight .childres td b {
+  color: #939393;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.chatWarp .content .chatRight .childres td strong {
+  color: #fc5508;
+  font-size: 14px;
+  font-weight: normal;
+  margin-right: 5px;
+}
+
+.chatWarp .content .chatRight .childres td span {
+}
+
+.chatWarp .content .chatRight .childres td.ex {
+  text-align: center;
+}
+
+.chatWarp .content .chatRight .childres td .err {
+  color: red
+}
+
+.chatWarp .content .chatRight .childres .expect {
+  margin-left: 22px;
+  width: 85%;
+}
+
+.chatWarp .content .chatRight .childres .expect td {
+  border: 1px solid transparent;
+  border-bottom: 1px solid #eeeded;
+  padding: 5px 0;
+}
+
+.chatWarp .content .chatRight .childres .expect td.buss {
+  padding: 5px 0 5px 22px;
+}
+
+.chatWarp .content .chatRight .childres .expect tr.last td {
+  border-bottom: none;
+}
+
+.chatWarp .content .chatRight .childres .tableHover td {
+  background: #eff9fd;
+  border: 1px solid #62c2eb !important;
+}
+
+.chatWarp .content .chatRight .childres .tableHover td.date,.chatWarp .content .chatRight .childres .tableHover td.buss {
+  border-right-color: transparent !important;
+}
+
+.chatWarp .content .chatRight .childres .tableHover td.buss,.chatWarp .content .chatRight .childres .tableHover td.ex {
+  border-left-color: transparent !important;
+}
+
+.chatWarp .content .chatRight tr.borderHover td {
+  border: 1px solid transparent;
+}
+
+.chatWarp .content .chatRight tr.borderHover:hover td {
+  background: #eff9fd;
+  border: 1px solid #62c2eb !important;
+}
+
+.chatWarp .content .chatRight tr.borderHover:hover td.col1 {
+  border-right-color: transparent !important;
+}
+
+.chatWarp .content .chatRight tr.borderHover:hover td.col2 {
+  border-left-color: transparent !important;
+}
+
+.chatWarp .content .chatRight .childres ul.bussList {
+  overflow: hidden;
+  margin-left: 22px;
+  padding-bottom: 20px;
+}
+
+.chatWarp .content .chatRight .childres ul.bussList li {
+  float: left;
+  margin-right: 25px;
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.chatWarp .content .chatRight .childres ul.bussList li.on {
+  color: #007acb;
+  border-bottom-color: #62c2eb;
+}
+
+.chatWarp .content .chatRight .childres .bussItem {
+  display: none;
+}
+
+.chatWarp .content .chatRight .childres .bussItem.show {
+  display: block;
+}
+
+.chatWarp .content .chatRight .childres a {
+  color: #333;
+}
+
+.chatWarp .content .chatRight .childres a:hover {
+  color: #713C15
+}
+
+.icon1 {
+  background: url(../img/bussiness_icon.png) no-repeat left 0;
+  padding-left: 20px
+}
+
+.icon2 {
+  background: url(../img/bussiness_icon.png) no-repeat left -27px;
+  padding-left: 20px
+}
+
+.icon3 {
+  background: url(../img/bussiness_icon.png) no-repeat left -54px;
+  padding-left: 20px
+}
+
+.icon4 {
+  background: url(../img/bussiness_icon.png) no-repeat left -81px;
+  padding-left: 20px
+}
+
+.icon5 {
+  background: url(../img/bussiness_icon_2.png) no-repeat left 4px;
+  padding-left: 20px
+}
+
+.icon6 {
+  background: url(../img/bussiness_icon_2.png) no-repeat left -34px;
+  padding-left: 20px
+}
+
+.icon7 {
+  background: url(../img/bussiness_icon_2.png) no-repeat left -68px;
+  padding-left: 20px
+}
+
+.icon8 {
+  background: url(../img/icons.png) no-repeat -90px 4px;
+  padding-left: 15px
+}
+
+.icon9 {
+  background: url(../img/icons.png) no-repeat -114px 4px;
+  padding-left: 15px
+}
+
+.icon10 {
+  background: url(../img/bussiness_icon_3.png) no-repeat left 6px;
+  padding-left: 20px
+}
+
+.icon11 {
+  background: url(../img/bussiness_icon_3.png) no-repeat left -19px;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+.icon12 {
+  background: url(../img/bussiness_icon_3.png) no-repeat left -42px;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+.chatWarp .content .chatRight .last td {
+  border: none;
+}
+
+.chatWarp .content .chatLeft {
+  overflow: hidden;
+  border-right: 1px solid #c9c9c9;
+  _width: 665px;
+  _float: right;
+  _position: relative;
+  _z-index: 1
+}
+/*提示*/
+.chatWarp .content .chatLeft .navText {
+  background: url(../img/contCurTipBg.png) no-repeat;
+  height: 53px;
+  line-height: 53px;
+  padding-left: 10px;
+  overflow: hidden;
+}
+
+.chatWarp .content .chatLeft .navText a {
+  color: #666;
+}
+
+.chatWarp .content .chatLeft .navText a:hover {
+  color: #713C15;
+}
+
+.chatWarp .content .chatLeft .navText a.first-child {
+  color: #666 !important;
+}
+
+.chatWarp .content .chatLeft .navText ul {
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.chatWarp .content .chatLeft .navText li {
+  background: url(../img/contNav/b_m.png) no-repeat;
+  float: left;
+  margin-right: 2px;
+  width: 33px;
+}
+
+.chatWarp .content .chatLeft .navText li.first {
+  background: url(../img/contNav/b_first.png) no-repeat;
+  width: 35px;
+}
+
+.chatWarp .content .chatLeft .navText li.last {
+  background: url(../img/contNav/b_last.png) no-repeat;
+  width: 35px;
+}
+
+.chatWarp .content .chatLeft .navText li a {
+  display: block;
+  padding-bottom: 5px;
+  width: 100%;
+  height: 33px;
+}
+
+.chatWarp .content .chatLeft .navText li:hover,.chatWarp .content .chatLeft .navText li.hover {
+  background: url(../img/contNav/b_m_hover.png) no-repeat;
+}
+
+.chatWarp .content .chatLeft .navText li.first:hover,.chatWarp .content .chatLeft .navText li.first.hover {
+  background: url(../img/contNav/b_first_hover.png) no-repeat;
+}
+
+.chatWarp .content .chatLeft .navText li.last:hover,.chatWarp .content .chatLeft .navText li.last.hover {
+  background: url(../img/contNav/b_last_hover.png) no-repeat;
+}
+
+.chatWarp .content .chatLeft .navText li.last:hover a,.chatWarp .content .chatLeft .navText li.first:hover a,.chatWarp .content .chatLeft .navText li.last.hover a,.chatWarp .content .chatLeft .navText li.first.hover a {
+  background: url(../img/contNav/arrow_hover.png) no-repeat 2px bottom;
+}
+
+.chatWarp .content .chatLeft .navText li:hover a,.chatWarp .content .chatLeft .navText li.hover a {
+  background: url(../img/contNav/arrow_hover.png) no-repeat 1px bottom;
+}
+
+.chatWarp .content .chatLeft .navText li a span {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.chatWarp .content .chatLeft .navText li .group {
+  background: url(../img/contNav/b_icon.png) no-repeat 10px 6px;
+}
+
+.chatWarp .content .chatLeft .navText li .weixin {
+  background: url(../img/contNav/b_icon.png) no-repeat -26px 6px;
+}
+
+.chatWarp .content .chatLeft .navText li .msg {
+  background: url(../img/contNav/b_icon.png) no-repeat  -60px 6px;
+}
+
+.chatWarp .content .chatLeft .navText li .email {
+  background: url(../img/contNav/b_icon.png) no-repeat -96px 6px;
+}
+
+.chatWarp .content .chatLeft .navText li:hover .group,.chatWarp .content .chatLeft .navText li.hover .group {
+  background: url(../img/contNav/b_icon_hover.png) no-repeat 10px 6px;
+}
+
+.chatWarp .content .chatLeft .navText li:hover .weixin,.chatWarp .content .chatLeft .navText li.hover .weixin {
+  background: url(../img/contNav/b_icon_hover.png) no-repeat -26px 6px;
+}
+
+.chatWarp .content .chatLeft .navText li:hover .msg,.chatWarp .content .chatLeft .navText li.hover .msg {
+  background: url(../img/contNav/b_icon_hover.png) no-repeat  -60px 6px;
+}
+
+.chatWarp .content .chatLeft .navText li:hover .email,.chatWarp .content .chatLeft .navText li.hover .email {
+  background: url(../img/contNav/b_icon_hover.png) no-repeat -96px 6px;
+}
+
+.chatWarp .content .chatLeft .tipBar {
+  background: #FEF9F5;
+  height: 28px;
+  line-height: 28px;
+  margin: 10px 10px 0;
+  padding-left: 10px;
+  overflow: hidden;
+}
+
+.chatWarp .content .chatLeft .tipBar em {
+  color: #fc5508;
+  font-style: normal;
+}
+
+.chatWarp .content .chatLeft .tipBar a.close {
+  background: url(../img/icon/close.png) no-repeat center center;
+  height: 28px;
+  width: 28px;
+  float: right;
+}
+
+.chatWarp .content .chatLeft .items {
+  margin: 0px 10px 0 20px;
+  height: 445px;
+}
+
+.chatWarp .content .chatLeft .items .warp {
+  background: url(../img/image0002.png) left repeat-y;
+}
+
+.chatWarp .content .chatLeft .items .icon {
+  margin-bottom: -15px;
+  margin-right: 10px;
+  vertical-align: top;
+  background: url(../img/icons.png) -332px -282px;
+  width: 42px;
+  height: 60px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.chatWarp .content .chatLeft .items .msgType {
+  text-align: left
+}
+
+.chatWarp .content .chatLeft .items .icon .type {
+  display: block;
+  width: 30px;
+  height: 27px;
+  margin: 9px 0 0 8px;
+}
+
+.chatWarp .content .chatLeft .items .icon .type.qq {
+  margin: 9px 0 0 10px;
+  background-position: -63px -251px
+}
+
+.chatWarp .content .chatLeft .items .icon .type.weibo {
+  margin: 9px 0 0 10px;
+  background-position: -6px -251px
+}
+
+.chatWarp .content .chatLeft .items .icon .type.sms {
+  margin: 12px 0 0 10px;
+  background-position: -112px -256px
+}
+
+.chatWarp .content .chatLeft .items .icon .type.feixin {
+  margin: 10px 0 0 10px;
+  background: url(../img/chatWay.png) no-repeat -50px 0px;
+  width: 25px;
+}
+
+.chatWarp .content .chatLeft .items .repItem .icon .type.sms {
+  background-position: -158px -256px
+}
+
+.chatWarp .content .chatLeft .items .icon .type.email {
+  margin: 12px 0 0 10px;
+  background-position: -196px -254px
+}
+
+.chatWarp .content .chatLeft .items .repItem .icon .type.email {
+  background-position: -242px -254px
+}
+
+.chatWarp .content .chatLeft .items .icon .type.weixin {
+  margin: 12px 0 0 10px;
+  background-position: -282px -254px
+}
+
+.chatWarp .content .chatLeft .items .repItem .icon .type.weixin {
+  background-position: -318px -254px
+}
+
+.chatWarp .content .chatLeft .items .repItem .icon .type.feixin {
+  background: url(../img/gchatWay.png) no-repeat -50px 0px;
+}
+
+.chatWarp .content .chatLeft .items .icon p.time {
+  font-size: 11px;
+  color: #777c9d;
+  text-align: center;
+  background: #fff;
+  margin-top: 8px;
+  line-height: 11px;
+  height: 11px;
+  vertical-align: middle;
+  *line-height: 12px;
+}
+
+.chatWarp .content .chatLeft .items .msgCont {
+  margin-bottom: 10px;
+  max-width: 530px;
+  vertical-align: top;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.chatWarp .content .chatLeft .items .item .line {
+  background: url(../img/image0003.png) right center repeat-y;
+  padding-right: 40px
+}
+
+.chatWarp .content .chatLeft .items .item.last .line {
+  background: #fff none;
+}
+
+.chatWarp .content .chatLeft .items .item {
+  text-align: left
+}
+
+.chatWarp .content .chatLeft .items .item > div,.chatWarp .content .chatLeft .items .repItem {
+  font-size: 0;
+}
+
+.chatWarp .content .chatLeft .items .repItem {
+  background: url(../img/image0003.png) repeat-y right center;
+  text-align: right;
+}
+
+.chatWarp .content .chatLeft .items .repItem .icon {
+  background: url(../img/image0004.png) center top no-repeat;
+  margin: 0 0 -15px 10px
+}
+
+.chatWarp .content .chatLeft .items .repItem.lastRepItem {
+  background: none;
+}
+
+.chatWarp .content .chatLeft .items .warp > .last {
+  background: none #fff;
+}
+
+/* 信息框样式 */
+.chatWarp .content .chatLeft .items .msgCont h1 {
+  line-height: 22px;
+  font-weight: normal;
+}
+
+.chatWarp .content .chatLeft .items .msgCont p {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 5px 0 0px 5px;
+  padding-bottom: 5px;
+}
+
+.chatWarp .content .chatLeft .items .msgCont .rep {
+  margin-left: 5px;
+  line-height: 22px;
+}
+
+.chatWarp .content .chatLeft .items .msgCont .time {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding-left: 26px;
+  background: url(../img/icon/clock.png) no-repeat left 3px;
+}
+
+.chatWarp .content .chatLeft .items .msgCont .name {
+}
+
+.chatWarp .content .chatLeft .items .msgCont .line {
+  background: url(../img/split.gif) no-repeat center  transparent !important;
+  padding-right: 40px
+}
+
+.chatWarp .content .chatLeft .items .msgCont .rep a {
+  margin-left: 25px;
+  color: #3b3b3b
+}
+
+.chatWarp .content .chatLeft .items .msgCont .gosBox {
+  color: #333;
+  text-align: left;
+}
+
+.chatWarp .content .chatLeft .items .msgCont .gosBox .time {
+  color: #898b9b;
+  background: url(../img/icon/clock_gray.gif) no-repeat left 3px;
+}
+
+/* 发送信息 */
+.chatTool ul {
+  overflow: hidden;
+  font-size: 0;
+  height: 40px;
+}
+
+.chatTool li {
+  float: left;
+  margin-left: 10px;
+  *display: inline;
+  vertical-align: top;
+}
+
+.chatTool li a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding-left: 30px;
+  height: 40px;
+}
+
+.chatTool li.last {
+  margin-left: 0px;
+}
+
+.chatTool li .bg {
+  padding-left: 5px;
+}
+
+.chatTool li .bgRight {
+  padding-right: 5px;
+}
+
+.chatTool li.on .bg {
+  background: url(../img/icon/on_l.png) no-repeat left center;
+  padding-left: 5px;
+}
+
+.chatTool li.on .bgRight {
+  background: url(../img/icon/on_r.png) no-repeat right center;
+  padding-right: 5px;
+}
+
+.chatTool li.on .bgCenter {
+  background: url(../img/icon/on_c.png) repeat-x center;
+}
+
+.chatTool li .weibo {
+  background: url(../img/icon/xinlang.png) no-repeat left center;
+}
+
+.chatTool li .selDown {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background: url(../img/icon/arrowDown.png) no-repeat center center;
+  width: 9px;
+  height: 100%;
+}
+
+.chatTool li .qq {
+  background: url(../img/icon/qq16.png) no-repeat left center;
+}
+
+.chatTool li .feixin {
+  background: url(../img/feixin.png) no-repeat left center;
+}
+
+.chatTool li .weixin {
+  background: url(../img/weixin.png) no-repeat left center;
+}
+
+.chatTool li .emailMsg {
+  background: url(../img/icon/msg.png) no-repeat center center;
+}
+
+.chatTool li .sendMsg {
+  background: url(../img/icon/sendMsg.png) no-repeat center center;
+}
+
+.chatTool li .phone {
+  background: url(../img/icon/phone.png) no-repeat center center;
+}
+
+.chatTool li .phone.hangUp {
+  background: url(../img/icon/phone_hangUp.png) no-repeat center center;
+}
+
+.chatTool li .split {
+  background: url(../img/icon/splite.png) no-repeat center center;
+  padding-left: 10px;
+}
+
+.chatTool li .splitD {
+  background: url(../img/icon/spliteD.png) no-repeat center center;
+  padding-left: 10px;
+}
+
+.chatTool li .clearScreen {
+  background: url(../img/icon/clearScreen.png) no-repeat center center;
+}
+
+.chatTool li .group {
+  background: url(../img/icon/group.png) no-repeat center center;
+}
+
+.chatTool li .fav {
+  background: url(../img/icon/fav.png) no-repeat center center;
+}
+
+.chatTool textarea {
+  width: 636px;
+  min-height: 90px;
+  max-height: 90px;
+  _height: 90px;
+  overflow: auto;
+  resize: none;
+  border: 0;
+}
+
+.chatTool .btnTool {
+  text-align: right;
+}
+
+.chatTool .sendBtn,.sendMail .mailBtn .sendBtn {
+  display: inline-block;
+  margin-right: 10px;
+  background: url(../img/icon/sendBtn.png) no-repeat;
+  text-align: center;
+  width: 91px;
+  height: 32px;
+  line-height: 28px;
+  font-size: 16px;
+  color: #fff;
+}
+
+.chatTool .sendBtn {
+  float: right;
+}
+
+.chatTool .sendBtn:hover {
+  background-position: 0px -32px
+}
+
+.chatTool .sendBtn:active {
+  background-position: left -64px
+}
+
+.chatTool .sendBtn.dis {
+  filter: aphle(opacity=50);
+  opacity: 0.5;
+  background-position: top center
+}
+
+.weiboChoose li a {
+  padding-left: 30px;
+}
+
+.weiboChoose .twitter {
+  background: url(../img/icon/twitter.png) no-repeat 5px center;
+}
+
+.weiboChoose .twitter:hover {
+  background: #62c2eb url(../img/icon/twitter_h.png) no-repeat 5px center;
+}
+
+.weiboChoose .facebook {
+  background: url(../img/icon/facebook.png) no-repeat 5px center;
+}
+
+.weiboChoose .facebook:hover {
+  background: #62c2eb url(../img/icon/facebook_h.png) no-repeat 5px center;
+}
+
+/*表情框样式*/
+.bgImageCont {
+  width: 224px;
+  position: absolute;
+  z-index: 999999;
+  display: none;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  padding: 5px
+}
+
+.bgImageCont a {
+  padding: 5px;
+  border: 1px #fff solid;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.bgImageCont a:hover {
+  border-color: red;
+}
+
+/* tip提示框样式 */
+.tipCont {
+  background: url(../img/image0007.png) center center no-repeat;
+  max-width: 450;
+  height: 34px;
+  overflow: hidden;
+  line-height: 27px;
+  position: absolute;
+  z-index: 99999;
+  color: #fff;
+  padding: 0 10px;
+}
+
+/* 账单 */
+.contItem.balance {
+  padding: 20px;
+}
+
+.contItem > .header {
+  color: #999 !important;
+  font-weight: normal !important;
+  font-size: 20px !important;
+  line-height: 20px !important;
+  font-family: Open Sans Light !important;
+}
+
+.contItem > .header h1 {
+  color: #999 !important;
+  font-weight: normal !important;
+  font-size: 20px !important;
+  line-height: 20px !important;
+  font-family: Open Sans Light !important;
+  width: 50%
+}
+
+.contItem.balance > .header h1 .billImg {
+  background: url(../img/billImage01.png) center center no-repeat;
+  width: 13px;
+  height: 13px;
+  padding: 0px;
+  margin-left: 3px;
+  cursor: pointer;
+  display: inline-block;
+  float: none;
+  *vertical-align: middle;
+}
+
+.contItem.balance > .header h1 .billImg:hover {
+  background: url(../img/billImg.png) 0px -24px no-repeat;
+}
+
+.contItem.balance > .header h1 span {
+  float: right;
+  padding-right: 30px;
+  display: block;
+}
+
+.contItem.balance .contBox {
+  padding-top: 10px;
+  font-family: Open Sans Bold;
+}
+
+.balanceDetails {
+  font-family: Open Sans Bold;
+  padding-left: 10px;
+}
+
+.balanceDetails li {
+  font-size: 0;
+}
+
+.balanceDetails > li {
+  padding-bottom: 18px;
+}
+
+.balanceDetails > li .item {
+  cursor: pointer
+}
+
+.balanceDetails > li .hover {
+  background-color: #46c0ff;
+  color: #fff;
+}
+
+.balanceDetails .balanceInfo {
+  position: relative;
+  font-size: 14px;
+  vertical-align: middle;
+  width: 47.5%;
+  padding: 0 5px 0 15px;
+  border-top: 1px solid #e5e5e5;
+  line-height: 200%;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1
+}
+
+.balanceDetails  .multiBranch > .balanceInfo {
+  cursor: pointer
+}
+
+.balanceDetails .switchHandle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  display: block;
+  top: 50%;
+  margin-top: -5px;
+  left: 2px;
+  background-position: -44px -179px;
+  cursor: pointer;
+}
+
+.balanceDetails .closed .switchHandle {
+  background-position: -9px -179px;
+}
+
+.balanceDetails > li > ul li:first-of-type .balanceInfo {
+  border-top: none;
+}
+
+.balanceDetails .money {
+  float: right;
+}
+
+.balanceDetails .valueAdded .total .money {
+  font-size: 14px;
+}
+
+.balanceDetails .dataBar {
+  position: relative;
+  padding-left: 20px;
+  width: 46%;
+  vertical-align: middle;
+  height: 4px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1
+}
+
+.balanceDetails .dataBar .val {
+  position: absolute;
+  background-color: #fcdba8;
+  height: 100%;
+}
+
+.balanceDetails .valueAdded .dataBar .val {
+  background-color: #c1e96d;
+}
+
+.balanceDetails .subBalance {
+  color: #999;
+  padding-left: 8px;
+  font-size: 13px;
+}
+
+.balanceDetails .subBalance .dataBar {
+  left: -4px;
+  height: 2px;
+}
+
+.balanceDetails .subBalance .title {
+  font-family: Open Sans;
+}
+
+.balanceDetails .subBalance .money {
+  font-size: 14px;
+}
+
+.balanceDetails .total {
+  color: #333;
+}
+
+.balanceDetails .total .balanceInfo {
+  border-color: #7e7e7e;
+ /*font-weight:800;*/
+  font-size: 16px;
+}
+
+.balanceDetails .total .dataBar {
+  height: 7px;
+}
+
+.balanceDetails .balanceTotal {
+  position: relative;
+}
+
+.balanceDetails .balanceTotal:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -12px;
+  top: 50%;
+  margin-top: -14px;
+  width: 12px;
+  height: 12px;
+  background-position: -118px -126px;
+}
+
+.balanceDetails .balanceTotal .balanceInfo {
+  border: none;
+}
+
+.balanceDetails .balanceTotal .dataBar .val {
+  background-color: #ff3131;
+}
+
+.bullSelect {
+  height: 30px;
+}
+
+.bullSelect .sendDit {
+  background: url(../img/billImg.png) no-repeat;
+  width: 23px;
+  height: 23px;
+  margin-right: 2px;
+  margin-top: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+.bullSelect .tallImg {
+  background-position: -12px -43px;
+}
+
+.bullSelect .weixin {
+  background-position: -35px -43px;
+}
+
+.bullSelect .xinluang {
+  background-position: -58px -43px;
+}
+
+.bullSelect .sendMial {
+  background-position: -81px -43px;
+}
+
+.bullSelect .tallImg.active,.bullSelect .tallImg:hover {
+  background-position: -12px -103px;
+}
+
+.bullSelect .weixin.active,.bullSelect .weixin:hover {
+  background-position: -35px -103px;
+}
+
+.bullSelect .xinluang.active,.bullSelect .xinluang:hover {
+  background-position: -58px -103px;
+}
+
+.bullSelect .sendMial.active,.bullSelect .sendMial:hover {
+  background-position: -81px -103px;
+}
+
+/*菜单*/
+.hideMenu {
+  display: none;
+  position: absolute;
+  z-index: 5;
+}
+
+.shortBox {
+  overflow: hidden;
+}
+
+.shortBox .shortBoxTop {
+  line-height: 0;
+  font-size: 0;
+  margin-right: 4px;
+}
+
+.shortBox .shortBoxTop .shortBoxTopCenter {
+  padding-top: 2px;
+  background: url(../img/short/s_t_c.png) repeat-x;
+  line-height: 0;
+  font-size: 0;
+}
+
+.shortBox .shortBoxMid {
+  background: url(../img/short/s_m_l.png) repeat-y;
+  padding-left: 6px;
+  position: relative;
+}
+
+.shortBox .shortBoxMid .shortBoxMidRight {
+  background: url(../img/short/s_m_r.png) repeat-y right top;
+  padding-right: 6px;
+}
+
+.shortBox .shortBoxMid .shortBoxMidCenter {
+  background: url(../img/short/s_m_c.png) repeat;
+  font-size: 14px;
+  min-height: 14px;
+  line-height: normal;
+  overflow: hidden;
+}
+
+.shortBox .shortBoxButtom {
+  background: url(../img/short/s_b_l.png) no-repeat left top;
+  padding-left: 6px;
+  line-height: 0;
+  font-size: 0;
+}
+
+.shortBox .shortBoxButtom .shortBoxButtomRight {
+  background: url(../img/short/s_b_r.png) no-repeat right top;
+  padding-right: 6px;
+}
+
+.shortBox .shortBoxButtom .shortBoxButtomCenter {
+  padding-top: 8px;
+  line-height: 0;
+  font-size: 0;
+  background: url(../img/short/s_b_c.png) repeat-x;
+}
+
+.shortBox .navLeftMenu {
+  float: left;
+  width: 137px;
+  background: url(../img/short/m_spilte.png) repeat-y right top;
+  padding: 0 15px 0 5px;
+}
+
+.shortBox .navRightMenu {
+  margin-left: 157px;
+  width: 602px;
+}
+
+.shortBox .navRightMenu .menuItem {
+  display: none;
+}
+
+.shortBox .navRightMenu .menuItem.show {
+  display: block;
+}
+
+.shortBox .navLeftMenu .search {
+  padding: 7px 0px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.shortBox .topNavMenu ul {
+  margin-top: 12px;
+}
+
+.shortBox .topNavMenu li {
+  text-indent: 12px;
+  margin-bottom: 5px;
+  height: 27px;
+  line-height: 27px;
+  cursor: pointer;
+}
+
+.shortBox .topNavMenu li.selected {
+  background: #62c2eb url(../img/short/down.png) no-repeat 125px 14px;
+  color: #fff;
+}
+
+.shortBox h3.title {
+  color: #007acb;
+  font-size: 18px;
+  line-height: 43px;
+  text-indent: 15px;
+  font-weight: normal;
+}
+
+.shortBox .subMenu dl {
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.shortBox .subMenu dl dt {
+  width: 126px;
+  text-align: right;
+  color: #007acb;
+  font-size: 14px;
+  float: left;
+}
+
+.shortBox .subMenu dl dd {
+  margin-left: 166px;
+}
+
+.shortBox .subMenu dl dd ul {
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.shortBox .subMenu dl dd ul li {
+  background: url(../img/short/subMenuSplite.png) no-repeat right center;
+  margin-left: 5px;
+  float: left;
+}
+
+.shortBox .subMenu dl dd ul li.first {
+  margin-left: 0px;
+}
+
+.shortBox .subMenu dl dd ul li.last {
+  background: none;
+}
+
+.shortBox .subMenu dl dd ul li a {
+  display: block;
+  line-height: 22px;
+  height: 20px;
+  color: #666;
+  padding: 0 5px;
+  margin-right: 5px;
+}
+
+.shortBox .subMenu dl dd ul li:hover a {
+  color: #fff;
+  background: #62c2eb;
+}
+/*快捷菜单*/
+.hideMenu {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.tabMenu .subMenu {
+  padding: 10px 5px;
+}
+
+.tabMenu .subMenu dl {
+  margin-top: 5px;
+}
+
+.tabMenu .subMenu dl dt {
+  width: 70px;
+  color: #333;
+}
+
+.tabMenu .subMenu dl dd {
+  margin-left: 105px;
+}
+
+.tabMenu .subMenu dl dd li {
+  margin-left: 5px;
+}
+
+.tabMenu .subMenu dl dd li a {
+  padding: 0 5px;
+}
+
+.tabMenu .subMenu dl dd li:hover a {
+  color: #fff;
+  background: #62c2eb;
+}
+/*跑马灯--公告*/
+.entertainingDiversions {
+  vertical-align: top;
+  display: inline-block;
+  width: 88px;
+  height: 22px;
+  overflow: hidden;
+  *display: inline;
+  *zoom: 1
+}
+
+.txt {
+  white-space: nowrap;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1
+}
+
+.state .entertainingDiversions {
+  width: 48px;
+  vertical-align: top;
+}
+
+.popLayoutWaep {
+  position: absolute;
+  z-index: 9999;
+  display: none;
+  background: url(../img/transparent.png);
+}
+
+.popLayoutWaep.rightPos {
+  margin-left: 6px;
+}
+
+.popContRight {
+  background: url(../img/popimage1.png) right center repeat-y;
+  padding-right: 6px
+}
+
+.popBotL {
+  background: url(../img/popimage4.png) left top no-repeat;
+  padding-left: 6px;
+}
+
+.popBotC {
+  background: url(../img/popimage2.png) left top repeat-x;
+  padding-top: 7px
+}
+
+.popBotR {
+  background: url(../img/popimage3.png) right top no-repeat;
+  padding-right: 6px;
+}
+
+.popLayout {
+  border: 2px #62c2eb solid;
+  background: #fff;
+  position: relative;
+  z-index: 9999
+}
+
+/*签出*/
+.toolMen {
+  padding: 13px 10px
+}
+
+.toolMen a {
+  display: block;
+  height: 27px;
+  line-height: 27px;
+  font-size: 14px;
+  width: 56px;
+  padding: 0 10px;
+  color: #333
+}
+
+.toolMen a:hover {
+  background: #62c2eb;
+  color: #fff;
+}
+/*框架选择*/
+.frameWork {
+  padding: 20px
+}
+
+/*历史记录详单*/
+.historyList {
+}
+
+.historyList .popLayout {
+  border-width: 2px;
+  position: relative;
+}
+
+.historyList h3 {
+  height: 27px;
+}
+
+.historyList h3 a.close {
+  background: url(../img/hisClose.png) no-repeat left -18px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  z-index: 1;
+  right: 5px;
+  top: 3px;
+}
+
+.historyList h3 a.close:hover {
+  background: url(../img/hisClose.png) no-repeat left 0px;
+}
+
+.historyList .historyUp {
+  padding-left: 20px;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.historyList dl {
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.historyList dt {
+  color: #939393;
+  width: 50px;
+  margin-right: 20px;
+  float: left;
+}
+
+.historyList dd {
+  float: left;
+  font-size: 14px;
+  padding-right: 20px;
+}
+
+.historyList .historyDown {
+  padding-left: 20px;
+}
+
+.historyList .historyDown h2 {
+  margin-bottom: 5px;
+  height: 35px;
+  line-height: 35px;
+}
+
+.historyList .historyDown .payOrder {
+  color: #007acb;
+  margin-right: 15px;
+}
+
+.historyList .trangle {
+  position: absolute;
+  left: 35%;
+  bottom: 20px;
+  z-index: 99999;
+  background: url(../img/trangle.png) no-repeat;
+  width: 18px;
+  height: 10px;
+}
+
+.historyList .topTrangle {
+  position: absolute;
+  left: 12%;
+  top: -10px;
+  z-index: 99999;
+  background: url(../img/topTrangle.png) no-repeat;
+  width: 18px;
+  height: 10px;
+}
+
+.weiboAttention .topTrangle {
+  position: absolute;
+  left: 50%;
+  top: -24px;
+  z-index: 99999;
+  background: url(../img/topTrangle.png) center bottom no-repeat;
+  width: 18px;
+  height: 24px;
+  margin-left: -9px;
+}
+
+.historyList .cappind {
+  height: 35px;
+  background: transparent;
+}
+/*今日绩效 performance*/
+.performance {
+  padding: 20px 0;
+}
+
+.performance h2 {
+  height: 22px;
+  line-height: 22px;
+  border-bottom: 1px solid #e1e1e1;
+  margin: 0 20px;
+  padding-bottom: 5px;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.performance h2 em {
+  color: #007acb;
+  font-size: 18px;
+  margin-left: 40px;
+  *margin-left: 35px;
+  *margin-right: 5px;
+}
+
+.performance .performWay {
+  padding: 3px 20px 10px 20px;
+  border-bottom: 1px solid #a4a4a4;
+  overflow: hidden;
+}
+
+.performance .performWay li {
+  float: left;
+  margin-left: 6px;
+  width: 44px;
+  padding-top: 40px;
+  padding-bottom: 5px;
+  text-align: center;
+  border: 1px solid transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.performance .performWay li.sms {
+  background: url(../img/perforWay.png) no-repeat left 5px;
+}
+
+.performance .performWay li.weixin {
+  background: url(../img/perforWay.png) no-repeat -44px 5px;
+}
+
+.performance .performWay li.email {
+  background: url(../img/perforWay.png) no-repeat -88px 5px;
+}
+
+.performance .myPerform {
+  padding: 20px 10px 0;
+  overflow: hidden;
+}
+
+.performance .myPerform li {
+  margin-bottom: 10px;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.performance .myPerform li a {
+  display: block;
+  padding-left: 30px;
+  font-size: 14px;
+  height: 27px;
+  line-height: 27px;
+  color: #333;
+  *width: 145px;
+}
+
+.performance .myPerform li.selected,.performance .myPerform li:hover {
+  background: #62c2eb;
+}
+
+.performance .myPerform li.selected a,.performance .myPerform li:hover a {
+  color: #fff;
+}
+
+.performance .myPerform .kp {
+  background: url(../img/perform.png) no-repeat 10px 6px;
+}
+
+.performance .myPerform .issue {
+  background: url(../img/perform.png) no-repeat 10px -22px;
+}
+
+.performance .myPerform .guide {
+  background: url(../img/perform.png) no-repeat 10px -52px;
+}
+
+.performance .myPerform li.selected .kp,.performance .myPerform li:hover .kp {
+  background: url(../img/perform_hover.png) no-repeat 10px 6px;
+}
+
+.performance .myPerform li.selected .issue,.performance .myPerform li:hover .issue {
+  background: url(../img/perform_hover.png) no-repeat 10px -22px;
+}
+
+.performance .myPerform li.selected .guide,.performance .myPerform li:hover .guide {
+  background: url(../img/perform_hover.png) no-repeat 10px -52px;
+}
+
+/*选中布局*/
+.seleLayout .seleLayoutCont {
+  padding: 20px;
+  width: 332px;
+/*border-bottom:1px solid #a4a4a4;*/
+}
+
+.seleLayout .seleLayoutCont h3 {
+  color: #666;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.seleLayout .seleLayoutCont ul {
+  overflow: hidden;
+}
+
+.seleLayout ul li {
+  float: left;
+  margin-right: 4px;
+  width: 106px;
+  position: relative;
+}
+
+.seleLayout ul li a {
+  display: block;
+  padding: 3px 4px;
+  border: 2px solid transparent;
+}
+
+.seleLayout ul li.selected a,.seleLayout ul li:hover a {
+  border-color: #62c2eb;
+}
+
+.seleLayout ul li .okBtn {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  top: 0px;
+  background: url(../img/selectOk.png) no-repeat center center;
+  z-index: 1;
+}
+
+.seleLayout ul li.selected .okBtn {
+  display: block;
+}
+
+.seleLayout ul li p {
+  padding: 0 4px;
+  color: #000;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+/*搜索按钮*/
+.sBtn {
+  display: block;
+  padding-left: 15px;
+  background: url(../img/btn/sbtn_l.png) no-repeat left top;
+}
+
+.sBtn .sBtnRight {
+  display: block;
+  padding-right: 15px;
+  background: url(../img/btn/sbtn_r.png) no-repeat right top;
+}
+
+.sBtn .sBtnCenter {
+  display: block;
+  background: url(../img/btn/sbtn_c.png) repeat-x;
+  height: 31px;
+  line-height: 31px;
+}
+
+.sBtn:hover {
+  background: url(../img/btn/sbtn_l_h.png) no-repeat left top;
+}
+
+.sBtn:hover .sBtnRight {
+  background: url(../img/btn/sbtn_r_h.png) no-repeat right top;
+}
+
+.sBtn:hover .sBtnCenter {
+  background: url(../img/btn/sbtn_c_h.png) repeat-x;
+}
+
+.sBtn input {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  width: 87px;
+  vertical-align: top;
+  line-height: 31px;
+  height: 31px;
+  background: none;
+  border: none;
+  color: #333;
+}
+
+.sBtn .tigger {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background: url(../img/short/tigger.png) no-repeat center center;
+  width: 16px;
+  height: 28px;
+  cursor: pointer;
+}
+
+/* 确定按钮 */
+.toolBar {
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.toolBar a.btn {
+  display: inline-block;
+  background: url(../img/btn/btn_l.png) no-repeat left top;
+  padding-left: 4px;
+  margin: 0 auto;
+}
+
+.toolBar .btnR {
+  display: block;
+  background: url(../img/btn/btn_r.png) no-repeat right top;
+  padding-right: 4px;
+}
+
+.toolBar .btnC {
+  display: block;
+  background: url(../img/btn/btn_c.png) repeat-x;
+  padding-left: 4px;
+  height: 32px;
+  line-height: 32px;
+  color: #333;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+/*号码选择*/
+.phoneNumber {
+  padding: 20px;
+}
+
+.phoneNumber .sBtn {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  vertical-align: middle;
+}
+
+.phoneNumber .sBtn input {
+  width: 120px;
+}
+
+.phoneNumber .toolBar {
+  padding: 0;
+  margin-left: 10px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.phoneNumber .toolBar a.btn {
+  background: url(../img/btn/numBtn_l.png) no-repeat left top;
+}
+
+.phoneNumber .toolBar .btnR {
+  display: block;
+  background: url(../img/btn/numBtn_r.png) no-repeat right top;
+}
+
+.phoneNumber .toolBar .btnC {
+  display: block;
+  background: url(../img/btn/numBtn_c.png) repeat-x;
+  height: 24px;
+  line-height: 24px;
+  color: #333;
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+/*搜索页*/
+.searchPage {
+  padding: 20px;
+  width: 326px
+}
+
+.searchPage .serveSearch input {
+  width: 165px;
+}
+
+.searchPage .serveSearch .searchInput {
+  border: none;
+  height: 24px;
+  line-height: 30px;
+  background: none;
+  z-index: 999;
+}
+
+.searchPage .searBtn {
+  background: url(../img/btn/searchBtn.png) center no-repeat;
+  float: left;
+  padding: 4px 15px;
+  margin: 2px 8px 0 0;
+}
+
+.searchPage .heighSear {
+  color: #007acb;
+  margin-top: 12px;
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/*高级搜索*/
+.highSearch {
+  padding: 20px;
+  display: none;
+}
+
+.highSearch .heigText {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 14px;
+}
+
+.highSearch .searchTeb dt {
+  font-weight: normal;
+  width: 40px;
+}
+
+.highSearch .searchTeb dl {
+  overflow: hidden;
+}
+
+.highSearch .searchTeb dd,.highSearch .searchTeb dt {
+  padding: 2px 0;
+  float: left;
+}
+
+.highSearch .searchTeb .tabInput {
+  width: 250px;
+  border: 1px solid #bbb;
+  background: none;
+  height: 22px;
+}
+
+.highSearch .searchTeb .checkBox {
+  background: url(../img/btn/cheak.png) 2px -27px no-repeat;
+  padding-left: 20px;
+}
+
+.highSearch .searchTeb .check {
+  background: url(../img/btn/cheak.png) 2px 1px no-repeat;
+  padding-left: 20px;
+}
+
+.highSearch dt label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.highSearch .toolBar {
+  padding: 0;
+  margin-left: 90px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.highSearch .toolBar a.btn {
+  background: url(../img/btn/numBtn_l.png) no-repeat left top;
+}
+
+.highSearch .toolBar .btnR {
+  display: block;
+  background: url(../img/btn/numBtn_r.png) no-repeat right top;
+}
+
+.highSearch .toolBar .btnC {
+  display: block;
+  background: url(../img/btn/numBtn_c.png) repeat-x;
+  height: 24px;
+  line-height: 24px;
+  color: #333;
+  padding: 0 10px;
+  font-size: 12px;
+}
+
+/* 添加微博关注 */
+.weiboAttention .accountInfo {
+  width: auto;
+  min-width: 140px;
+  padding: 20px 30px;
+}
+
+.weiboAttention .accountInfo dl {
+  margin-bottom: 15px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.weiboAttention .accountInfo dl dt {
+  color: #939393;
+  line-height: 22px;
+  overflow: hidden;
+  padding-right: 15px;
+  float: left;
+}
+
+.weiboAttention .accountInfo dl dd {
+  color: #333;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+/* 联想输入 */
+.capacityPrompt {
+  position: absolute;
+  z-index: 999999;
+}
+
+.capacityPrompt ul {
+  padding: 5px 10px;
+  background: #fcfcfc url(../img/capacityPromptBg.png) center bottom repeat-x;
+  border: 1px solid #dadada;
+}
+
+.capacityPrompt ul li {
+  color: #333;
+  font-size: 14px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.capacityPrompt ul li div {
+  display: inline;
+  cursor: pointer;
+}
+
+.capacityPrompt ul li span {
+  color: #007acb;
+}
+
+.jiaoLiuFangShi {
+  display: none;
+  padding: 0 10px;
+  height: 20px;
+  border: 1px solid #ddd;
+}
+
+.jiaoLiuFangShi .yuYin {
+  padding-left: 20px;
+  background: #fcfcfc url(../img/yuYin.png) center left no-repeat;
+  line-height: 20px;
+}
+
+/*评论编辑器*/
+.weiboUe {
+  padding-left: 7px;
+}
+
+.weiboUe .chatBox {
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+}
+
+.weiboUe .chatBox .chatBoxMid .chatBoxMidRight {
+  padding-right: 9px;
+}
+
+.weiboUe .msgCont {
+  margin: 0
+}
+
+.repM {
+  background: url(../img/btn/image0001.png) left top no-repeat;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.repM .repCenter {
+  background: url(../img/btn/image0001.png) right bottom no-repeat;
+  padding-right: 10px;
+  margin-left: 10px;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  color: #fff !important
+}
+
+.repCosBox {
+  margin-top: -5px;
+}
+
+.repCosBox .cosBoxTop {
+  background-image: url(../img/common/c_t_l2.gif) !important;
+}
+
+.repCosBox .cosBoxTop .cosBoxTopRight {
+  background-image: url(../img/common/c_t_r2.gif) !important;
+}
+
+.repCosBox .cosBoxMid {
+  background-image: url(../img/common/c_m_l2.gif) !important;
+}
+
+.repCosBox .cosBoxMid .cosBoxMidRight {
+  background-image: url(../img/common/c_m_r2.gif) !important;
+}
+
+.repCosBox .cosBoxMid .cosBoxMidCenter {
+  background-image: url(../img/common/c_m_c2.gif) !important;
+}
+
+.repCosBox .cosBoxButtom {
+  background-image: url(../img/common/c_b_l2.gif) !important;
+}
+
+.repCosBox .cosBoxButtom .cosBoxButtomRight {
+  background-image: url(../img/common/c_b_r2.gif) !important;
+}
+
+.weiboUe {
+  background: url(../img/common/c_t_f.png) -142px top no-repeat;
+  padding-top: 8px;
+  margin-top: -10px;
+}
+
+/*交流*/
+.intercommunion {
+  margin: 0 23px;
+  height: 20px;
+  padding: 0;
+  overflow: hidden;
+}
+
+.intercommunion .speech {
+  height: 20px;
+  padding-left: 20px;
+  border: 1px solid #ddd;
+  background: #fcfcfc url(../img/speech.png) 1px center no-repeat;
+  line-height: 20px;
+  display: none;
+}
+/*表单*/
+.formInfo {
+  width: auto;
+  min-width: 140px;
+  padding: 20px 0;
+}
+
+.formInfo dl {
+  padding: 8px 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.formInfo dl dt {
+  color: #939393;
+  width: 60px;
+  line-height: 22px;
+  text-align: right;
+  overflow: hidden;
+  padding-right: 5px;
+  float: left;
+}
+
+.formInfo dl dd {
+  color: #333;
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.formInfo dl dd .inputText {
+  line-height: 22px;
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid #BBBBBB;
+  height: 22px;
+  width: 180px;
+  background: #fff;
+}
